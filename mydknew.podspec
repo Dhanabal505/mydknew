@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'mydknew'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Lib test'
 
 # This description is used to generate tags and improve search results.
@@ -28,10 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Dhanabal505/mydknew.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
       s.platforms = {
-          "ios": "12.0"
+          "ios": "13.0"
       }
 
   s.source_files = 'mydknew/Classes/**/*'
@@ -43,4 +43,9 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire','~> 4.9'
+  s.dependency 'NFCPassportReader'
+  s.dependency 'Toast-Swift', '~> 5.0.0'
+  s.dependency 'QKMRZParser'
+  s.dependency 'QKMRZScanner'
 end

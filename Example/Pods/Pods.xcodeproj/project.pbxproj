@@ -6,73 +6,468 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CDC8931AD2EF1861DCA025EFE894F1B5 /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */;
+			buildPhases = (
+				852F182579276A76FBF60ED8DCB23D1F /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "OpenSSL-Universal";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		1E02506B5715E55163730D8C977374BC /* mydknew-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB64518B56E2DB471CB402CB77A176AE /* mydknew-dummy.m */; };
+		02C05B96283179D090C78C2D6515A4DE /* Pods-mydknew_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 367584A9687D269ABDC99024ACE4234A /* Pods-mydknew_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03FE102F2C5B8D3D6570E41C317A6E66 /* QKMRZScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135B80ABFA3B031DFFB165868BA0708 /* QKMRZScannerView.swift */; };
+		07D3D2A9916D3FF5B473D73D765F9548 /* MRZFieldFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA857C079A263DAC7CBDF59EC0EADF /* MRZFieldFormatter.swift */; };
+		089E44BA02686D31A8D56AD1D62EE14B /* CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BDD5E463434313477FBF80298C41E1 /* CIImage.swift */; };
+		0CB98B6FDBE527E28AF406AEDD300023 /* NFCPassportReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D88F7C9F81DE3B56EAAE81ECCF1EAC62 /* NFCPassportReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CD6763B269134C69EE499E61C22F869 /* CVImageBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18DE8B4DAA32C92F8E6238A07D12E6 /* CVImageBuffer.swift */; };
+		0D921CD73C71B6D461CC8BA2872DD607 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEB1A2187AD49EE910DB9525C6742FA /* UIKit.framework */; };
+		1164571E50366E08C64452BD5C0E8ED7 /* DataGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952513014417D7F587CC6DB8A42CE09 /* DataGroup.swift */; };
+		119B37D7E7D3A59C6685FC0EFEE881CE /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968CF528FD30C83C33A7B70465D28440 /* TaskDelegate.swift */; };
+		1229676A99367A5C6ED5DA6045A348BC /* DataGroup15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B42E2B99EF695808B77222B234F673E /* DataGroup15.swift */; };
+		13F6D4B26650D5C4F98FC13ED271A4C8 /* NotImplementedDG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DB1138B5EB2C933495D432359852C /* NotImplementedDG.swift */; };
+		144909D440188FB8EC20006F797B2B37 /* ChipAuthenticationPublicKeyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C362015EE8946AED1E3964C001F1649 /* ChipAuthenticationPublicKeyInfo.swift */; };
+		1616506DEE66FFC67A7CC06176299597 /* DataGroup11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAE3E42AB44B90AF991863927FBD584 /* DataGroup11.swift */; };
+		16B4BEF572B61E92BCD160E706319DB0 /* AES_3DES_DESEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6688943A565A79E763B6386BBC3CCED4 /* AES_3DES_DESEncryption.swift */; };
+		17E5507F92F0DF1DD5C3AB12E53F559F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08FCBD41D839A57026DEA6BB279E32F /* Foundation.framework */; };
+		17FCFD13F67372676675CEC3C61CE766 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE1166D557C60D6B7C09FAD58A0B109 /* Logging.swift */; };
+		1D7910DDE9EE24367A47A96300EAB6C0 /* DataGroupParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8883D5E6492F98C714262BEB7889CACA /* DataGroupParser.swift */; };
+		1EEF1CD1728F625D6832CD1871DD8EE6 /* QKCutoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F068745C143A83DD584CB5ACA888270F /* QKCutoutView.swift */; };
+		1F56706DBEB6D55844B15A6A2363739F /* ChipAuthenticationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01902EC24FD1259B48A8F528F86B966 /* ChipAuthenticationInfo.swift */; };
+		207FEE7C6587D7CC354B826D7B14257C /* LanguageModelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65500D14662757101726F0DD706CDC81 /* LanguageModelDataSource.swift */; };
+		20980E99E4E18001EE552D08E91C11EB /* SwiftyTesseract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97744CB1891CA7B69621D0B42D1AF0C8 /* SwiftyTesseract.swift */; };
+		2119BBBDD76C9B182007C9E8D3BD8DDA /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CCC3CF2B3B9410C8D386F3C599B7B /* Timeline.swift */; };
+		23093FCEAC010BA1302340B24AFA07AE /* TD1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4986B55FB99903D336D7C8955B6744EA /* TD1.swift */; };
+		23ACAA795BE579853C99135CF63CDA71 /* QKMRZScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49CBD9F2C4B3A570547D6913413692C /* QKMRZScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265C0DEFA011D36AECA8CD09FEFC741A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4CDA5C821E82F5992A45F2E54464DA /* AVFoundation.framework */; };
+		26B992B7D4531E5CFD7C34902D95864C /* PassportReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E6773F3AC6B9F92C43C81CA575D486 /* PassportReader.swift */; };
+		2D5CEFC3FE47D7F9EF8DA078A2A5233A /* AVCaptureVideoOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7171A48E6DC1053F56A04B9B66B50136 /* AVCaptureVideoOrientation.swift */; };
+		32EEB074DFB960C78E5F1720F1500E28 /* SwiftyTesseractError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD8277B08FACC121179E00BD93D344C /* SwiftyTesseractError.swift */; };
+		3644DBBB9E86DD4CDF92F37691701169 /* DataGroup14.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1222DCBD4397B42D9A9D1ACDB07AD86 /* DataGroup14.swift */; };
+		36CA7359E593F178CFC8F8D49200C7B6 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59832D3E5E9B890E42840F8FE0005DF0 /* Logger.swift */; };
+		3B831DA67CF0CDBB3F46F145735043EA /* SwiftyTesseract-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E900E788F22CBE91EAC210F8E7146629 /* SwiftyTesseract-dummy.m */; };
+		3CEBFFE3C08F451DDF588D08EAE0714A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B9999F8A6D810A9C7D8DE8FBFEFC5 /* Utils.swift */; };
+		3DE8AA12C52787A0BA570717BB27AAB0 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDFD605A4439DA87F2140DA7DA7A5C /* ServerTrustPolicy.swift */; };
+		42D69D53E069CEDAF77B6FA33B1C3DD0 /* BACHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1BA18B92E08B1C6812FF689A0B9629 /* BACHandler.swift */; };
+		43C3C17BFDFD71F45C5A7AFB0C0BEF45 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D722A65D4C4A14FAE1A57C1BF5973F38 /* ResponseSerialization.swift */; };
+		47318875B8D2E65DC4A6E5B33FC15329 /* COM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA782352192EE78980017EAFBF4997D /* COM.swift */; };
 		483148DAA3FBA23CB3BCBEB52E53B722 /* Pods-mydknew_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2DD2AC5A5D11B206C8C11CFDD0B2F3 /* Pods-mydknew_Tests-dummy.m */; };
 		4AD96B3340A7A29D43A76565C7D0D1D0 /* Pods-mydknew_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C51E815CF5C6039261F0B6B878B758FD /* Pods-mydknew_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69A211E6A464DD5CBB54BE436B719808 /* Pods-mydknew_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 367584A9687D269ABDC99024ACE4234A /* Pods-mydknew_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8193E2A5AA13A4A54B26C5C0D537E19F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59832D3E5E9B890E42840F8FE0005DF0 /* Logger.swift */; };
-		8611E366AD60BEFA492A9A443658A4C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A0D30C13D9C6BFA6C973F8732CAAF8AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C9920C3FD8028F4A2E9A84CB571369A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DCC8DAB8A3F0AA9F2ED62FC5B9CA0864 /* Pods-mydknew_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CF5B9033A25736C6C265285773AA21 /* Pods-mydknew_Example-dummy.m */; };
-		E8A6EC06BA1901B9D47479ED0A3BCFCB /* mydknew-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A204DA64A1C7F44ECEA3369C17A5B79 /* mydknew-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AE5DF1FDD9964CBD0B4B3A7AE382B3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08FCBD41D839A57026DEA6BB279E32F /* Foundation.framework */; };
+		4B345F1DACCB13151F570BB65672B05D /* PACEInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83776297073F316A217756CFF140804 /* PACEInfo.swift */; };
+		4BBF4146768CAD1005D3935EB8F4C65F /* DataGroup1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4917AC5B6255E1FA618F530335BA8C5 /* DataGroup1.swift */; };
+		4C301CCA81AAFB4453B6B827F846E0AC /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE11719ECAC10A798DC97439F1E768AD /* Validation.swift */; };
+		4DDC6D5DC10EC18D4CAD8C88E1306759 /* EngineMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8157720BB8E13740236A18C04FD236 /* EngineMode.swift */; };
+		4E08DCC987FC46133FD894611D4E329A /* Bundle+pathToTrainedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F0658EC8D4917A7964A105EDE48BBF /* Bundle+pathToTrainedData.swift */; };
+		5051A7C45AFD8503C656F6CD79AF61B7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF931176659A98E5E22611E4612F0F7A /* AudioToolbox.framework */; };
+		537D7452E6C8C82D9C1908EA29706E35 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA263D272CAF6F378827581C793BA3DB /* Notifications.swift */; };
+		5517F0499A28D8C87A33DF167C2F75A7 /* DataGroup7.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20646BDFE4B2A48FF8307254B4840A5 /* DataGroup7.swift */; };
+		5A73F7DE4F466D12A95D0FCB2596A382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08FCBD41D839A57026DEA6BB279E32F /* Foundation.framework */; };
+		5CECD168465CF59B489253695D3FB51F /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B485AAFEC9756984D6447BBE7D454DE1 /* NetworkReachabilityManager.swift */; };
+		5F5A71E3F8ECF7DCCF26D184E2A5BAF8 /* NFCPassportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BEC93432D89349404A2B048C02DC7E /* NFCPassportModel.swift */; };
+		5FA151D3E662DFB06864F51B4A8E26CA /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F41CCA075D1E54041BE203863A86CCD /* CoreImage.framework */; };
+		6374B73DCC051E50B8F78D309584FCA0 /* ResponseAPDU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2566EE743565F382A5716F48D0594A /* ResponseAPDU.swift */; };
+		66F02AE29D16467503C9BF488164BF96 /* ActiveAuthenticationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EC483A76BB541FEEDB8055DBA061AF /* ActiveAuthenticationInfo.swift */; };
+		6AC0F50003ABCF9FB23A47D78AFC7852 /* QKMRZScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC514EFC4270D23C73892E1812958C6 /* QKMRZScanner-dummy.m */; };
+		6B08F453594587DEEBF0735DF4AC6AE5 /* TD3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA957B4F423B549B5636B381E4C1FED2 /* TD3.swift */; };
+		6D0464BDCD6CE52FE613303A5558DE30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08FCBD41D839A57026DEA6BB279E32F /* Foundation.framework */; };
+		6DF154F51210D4C446AA021F2DBA34A4 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50278D83BD2FC6BD28EF3EDE4610BD1C /* MultipartFormData.swift */; };
+		6DFA70326D4C540DC43BD455F5A4A658 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30776D944F85AFC5540B4D12688ADBD3 /* Toast-Swift-dummy.m */; };
+		70EA6F068498CEC1B273D6BB1E74EB4E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2934BE28D8E5320630994C0CAF7071 /* Alamofire.swift */; };
+		73AC846207420E086CDB86EFED5B4239 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05606AD8C77E628E2494EFCE3DC83C7B /* Errors.swift */; };
+		7474BD04CCCB55B5D04BBC3FC3034797 /* TD2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD487CE45263A91664E389828C45AC0 /* TD2.swift */; };
+		7699E796E6113D4D45845E2FE4B6D5DB /* SwiftyTesseract-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 290FBED8124ECB1E2E8D74FDBF67F780 /* SwiftyTesseract-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78489A134C2A4ECEB76FE0153F7C3B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08FCBD41D839A57026DEA6BB279E32F /* Foundation.framework */; };
+		78AD3535009ADDFFAB51D9225A70F4B1 /* MRZField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1379D1D2BFF2FEDF706F306955DBCC3 /* MRZField.swift */; };
+		7A754020EC2D8C7EB9A33813FC0B6261 /* DataGroup12.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE36E4C3FBD2868F47AB8CE54779A02 /* DataGroup12.swift */; };
+		8023EECE8437F0311A065A9C2F420E2E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B746DA282C47EE50A743E187FD5F45 /* SessionManager.swift */; };
+		807FC3E692F44703DB264748B2CEB479 /* TesseractVariableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3590D1234FC0A9376EA3529C02AFD7A6 /* TesseractVariableName.swift */; };
+		817E83258C8D78240D555EDE2D359A8F /* Pods-mydknew_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CF5B9033A25736C6C265285773AA21 /* Pods-mydknew_Example-dummy.m */; };
+		82158DC64C5F36E6126E209DDF3099E3 /* OpenSSLUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75003BC6D2BA6E031CE142D256E739 /* OpenSSLUtils.swift */; };
+		83E41616744AAB9AFB9384211A4CA3BD /* RecognizedBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04737371F37E7D945A9A7316C0D5A6A /* RecognizedBlock.swift */; };
+		84DC94121F5109DA6D0C4700F505009F /* DataGroupId.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C8990F077018D59FC165877E3005CA /* DataGroupId.swift */; };
+		85379CCF081FC9C36F082E71D2DF4D2F /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1FC3D06E0740194E2AD3A9195357D /* SessionDelegate.swift */; };
+		87E3B15B2AA7D226CB60059610C1241A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B376B22CA529B82842A622B54C5DFE /* QuartzCore.framework */; };
+		8894EA48A73CA55E6EE07358DABA7CA5 /* SecurityInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FFFD3208FB4AD5243E195567F389A6 /* SecurityInfo.swift */; };
+		8C599405D7CDF9EA36B70E00416A1927 /* DataGroupHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073E42FF8EA5F4A0C18C00626545DEB9 /* DataGroupHash.swift */; };
+		90E42B43904F2F22CA3A8BBD0155D9A2 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2776B2C9D6B91BC179A78F95431FC49 /* AFError.swift */; };
+		9146510540C8DAF109CC4BCCB0CA74A9 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 145BB9F15D5992D4869DC3A9C23E8D2E /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9676282A346753007AC80D1180021D2B /* ChipAuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87E0FE0FF939BC5B92EC17B3A64D0A /* ChipAuthenticationHandler.swift */; };
+		9792D3520C9F00D1669EACEBB198D9ED /* TagReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A785C3478D4E4BFE6748F8263F651 /* TagReader.swift */; };
+		99B27F58987179EE73A097391D107779 /* CardAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C49754840E4BE53D1EA21ABAD4B63 /* CardAccess.swift */; };
+		9BCBBFE03318F5DD172F9E1F3100F67B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F3ABECA640926A6402B60E88CD971A /* Response.swift */; };
+		9C9B071E7F00175D672265FBD1CA68EA /* String-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB2319F3EF0FD21DCB414D6BE90A0B /* String-Ext.swift */; };
+		A0587A0FCF9E08BEC681A8E5E13CFA17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08FCBD41D839A57026DEA6BB279E32F /* Foundation.framework */; };
+		A0D30C13D9C6BFA6C973F8732CAAF8AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08FCBD41D839A57026DEA6BB279E32F /* Foundation.framework */; };
+		A28D7392D6419A3C4516FE247B42A0CE /* NFCPassportReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C90266CBD32AA95725E5B0EC47D683 /* NFCPassportReader-dummy.m */; };
+		A3DF24D3C4DF26DDA3301CBDCBBD74DA /* QKMRZParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D290A98D4911FB7250F4186C15CD21EC /* QKMRZParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B2C4A347383797E9C60A12BC2439CA /* mydknew-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A204DA64A1C7F44ECEA3369C17A5B79 /* mydknew-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD527BC45351214EE895811686B95AF9 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0DCB0B5237E10E165BFBC83B9C3819 /* String+Extensions.swift */; };
+		AEB4D385A054641A31E36BA66B6FA6B5 /* QKMRZScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED84FDFBA1680F5D992DD7E4BD0434 /* QKMRZScanResult.swift */; };
+		AFB654D71043F7B25E9F0B0A8B69D71F /* SOD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C9631BFBD191B6F824321EBEB16A6 /* SOD.swift */; };
+		B06230586ADBF6DBF12DA854C7CE60E5 /* LuminanceThresholdFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC34D2283BC453F1C0577D6BADBC1974 /* LuminanceThresholdFilter.swift */; };
+		B468CBA0FC32DBBFF01CBAE0E0FD5CA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEB1A2187AD49EE910DB9525C6742FA /* UIKit.framework */; };
+		BC9404F7E0D4C052E6FC75DE9868D392 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08FCBD41D839A57026DEA6BB279E32F /* Foundation.framework */; };
+		BF20C741EBB18F936CA31F2E41DC9F23 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 232776708E815CCDA60DEEEDF47338E6 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0FD35915EC7BB19E7F4ACB9011BD26E /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E0891DA0C7A384EA5C3D113AEEC29 /* BoundingBox.swift */; };
+		C1C26A468D8B846A2442987E562F9537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08FCBD41D839A57026DEA6BB279E32F /* Foundation.framework */; };
+		C27C72B2D755F3A7B2D97089CA75146F /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBE2CF0B5BE8B5A26BCAE04FB35A559 /* Alamofire-dummy.m */; };
+		C400A9286BBC5E24117E2566DCB22596 /* PACEHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E422C8CB1BA0AFFF1D6571AED1D1570 /* PACEHandler.swift */; };
+		CAE29563450C7ED7B9BEFD4F8C3788CA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6222C00334BC507EF61E35B8FDA51CD /* Toast.swift */; };
+		CAE6A68B3DD0190EA8FDAAAA57C68ECE /* QKMRZParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A50A713BA3C627300325EDBA708DA /* QKMRZParser.swift */; };
+		CFA5968A5AED330BDBE1B15BC6FE6BFE /* ResultIteratorLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA25E76574943CDB26A2A92DB5107F /* ResultIteratorLevel.swift */; };
+		CFD67EE0E7487237999BE755007944D9 /* mydknew-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB64518B56E2DB471CB402CB77A176AE /* mydknew-dummy.m */; };
+		D46CB5AF7BE345C5D27ABF9DCF692881 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE73C95F3AE423DE3E54686AEE95903 /* Result.swift */; };
+		D593E5BEB4221FF272DBF69E51945319 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD58EBF8205CF266FCD4C0BCFA572D92 /* Request.swift */; };
+		D603180BFD668708BF5651FC5C1956FE /* LanguageStringConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5736D5F154D2FD54DEBB5F5031D4790A /* LanguageStringConverter.swift */; };
+		DF25543EADC48DF08FF031F8C8AC61BB /* QKMRZResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F530BF37A9FB875C60DD2F3A9C7CFF54 /* QKMRZResult.swift */; };
+		DFEBD05F23298D667FEF307ACFEEAF24 /* X509Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462A2B6C438652CC5DA0F6AEBFF996CD /* X509Wrapper.swift */; };
+		E1B9037BA18A61BB4B890E7631F9F0E9 /* RecognitionLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951434D0DB56D61048C44D9B95A99515 /* RecognitionLanguage.swift */; };
+		E1F1C77A35D30254180155A2965B237A /* NFCViewDisplayMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B229FFF68BF60D80F23F0DA1E0067F /* NFCViewDisplayMessage.swift */; };
+		E29FC20F0E7C8BBBE135D676A0433E67 /* SimpleASN1DumpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33762A3D2E3E99BEC48E711F4F5F268B /* SimpleASN1DumpParser.swift */; };
+		E46662EAF82C1457A9AFECFEACCB3095 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 4DB6F23E2DC2AEC35A24653F794042EC /* tessdata */; };
+		E7A98AF3CBBFD05009AA46E42AD94477 /* DataGroup2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99F92BF9809E0B813692650662DD968 /* DataGroup2.swift */; };
+		EBFEB75A66A63739F2B6A2B38C22B64F /* SecureMessagingSessionKeyGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A8AE6CD250A777E29782C0F9437FBC /* SecureMessagingSessionKeyGenerator.swift */; };
+		F5C92DC8E274C4FC541267A97575BC05 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFC447711728C85ED60D742D65E287 /* ParameterEncoding.swift */; };
+		F70CCF1944F4CD7024D554E7A0F061F0 /* QKMRZParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01883D9F39DDFA28E4DC79E090341DA9 /* QKMRZParser-dummy.m */; };
+		F93AEAF3659818E2308E0E5C70B66423 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6CA66DE2CE74EAE4768A30E1A9DB89 /* DispatchQueue+Alamofire.swift */; };
+		FBDCFCD6310EA6BC4728DD97710A45F9 /* SecureMessaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17A5A1BF3ABAA662DEA81E6BF0A9CD /* SecureMessaging.swift */; };
+		FFF532ACFCA70CE68D20F4FE85D4C416 /* CIContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CED1F69C4789C515F804A716D36E46 /* CIContext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A8005D6D64493A3C77A1995102EFF398 /* PBXContainerItemProxy */ = {
+		07C1B35AA38FA0DB02367E0547329610 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7AD7E24D31F8126B020FB138568870D1;
-			remoteInfo = "Pods-mydknew_Example";
+			remoteGlobalIDString = 5FDA8701204211983085669C4E12E6FE;
+			remoteInfo = SwiftyTesseract;
 		};
-		D23F70D2CF48E9387F23B8B0864769C3 /* PBXContainerItemProxy */ = {
+		0A5AB0F5CD3F4DB97CA1D9425AD33E48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 97A4A466DE383E2E81A30AC9A6A29250;
 			remoteInfo = mydknew;
 		};
+		1206DC21189AB09ACBACF246C771A246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
+		14A14D38A6C32BCE1029F90B33835144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
+		219B4BB7BA1DD92094E88D3C18BD1CC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A27FBFB272D0D46BF9B937D5AEEA741;
+			remoteInfo = QKMRZScanner;
+		};
+		4BD4586CA4079ABB864E2D34DCBBC65F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FDA8701204211983085669C4E12E6FE;
+			remoteInfo = SwiftyTesseract;
+		};
+		4C42A2D14A7AF3F0FBA7F1F0DA6120BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AD7E24D31F8126B020FB138568870D1;
+			remoteInfo = "Pods-mydknew_Example";
+		};
+		626BBB6406399BA838C8267876D95990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44846E5E2172F853B4F70588F8115052;
+			remoteInfo = QKMRZParser;
+		};
+		66BE2348D15C2D01180609A08201BB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7BF2183371AE1848A42AD5EEF38B8DB;
+			remoteInfo = NFCPassportReader;
+		};
+		68554C4D8F7AC98B1C44796F029F9E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A27FBFB272D0D46BF9B937D5AEEA741;
+			remoteInfo = QKMRZScanner;
+		};
+		6E9780EBF124BFF930DE15519395CE83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		726FC2FC89A90385E3E87AA6D94B412F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7BF2183371AE1848A42AD5EEF38B8DB;
+			remoteInfo = NFCPassportReader;
+		};
+		9399632B3D33EE6890F6F1C5BBB8F276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44846E5E2172F853B4F70588F8115052;
+			remoteInfo = QKMRZParser;
+		};
+		A9CA780C89641865619126524C7515B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B990BD87169C76A3ED3FE8A9258D91A3;
+			remoteInfo = "Toast-Swift";
+		};
+		DC22547225B73830626DC52019B8FA60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		EA2124845E1F283981B3920DCB0C1A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44846E5E2172F853B4F70588F8115052;
+			remoteInfo = QKMRZParser;
+		};
+		ECDF7F2AEDE923F4DB81DA95338F3CD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B990BD87169C76A3ED3FE8A9258D91A3;
+			remoteInfo = "Toast-Swift";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0003A3CAB84F871BE77148CFCFC9A047 /* Toast-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		01883D9F39DDFA28E4DC79E090341DA9 /* QKMRZParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QKMRZParser-dummy.m"; sourceTree = "<group>"; };
 		01FF3779242FE34BBD2D161F4E8384E2 /* mydknew */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = mydknew; path = mydknew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05606AD8C77E628E2494EFCE3DC83C7B /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/NFCPassportReader/Errors.swift; sourceTree = "<group>"; };
+		073E42FF8EA5F4A0C18C00626545DEB9 /* DataGroupHash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataGroupHash.swift; path = Sources/NFCPassportReader/DataGroupHash.swift; sourceTree = "<group>"; };
+		09C396D01EFF029D4AA358370F30D17A /* QKMRZParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKMRZParser-prefix.pch"; sourceTree = "<group>"; };
+		09CDFD605A4439DA87F2140DA7DA7A5C /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		0F2566EE743565F382A5716F48D0594A /* ResponseAPDU.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseAPDU.swift; path = Sources/NFCPassportReader/ResponseAPDU.swift; sourceTree = "<group>"; };
+		145BB9F15D5992D4869DC3A9C23E8D2E /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		16B229FFF68BF60D80F23F0DA1E0067F /* NFCViewDisplayMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFCViewDisplayMessage.swift; path = Sources/NFCPassportReader/NFCViewDisplayMessage.swift; sourceTree = "<group>"; };
+		18E6773F3AC6B9F92C43C81CA575D486 /* PassportReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassportReader.swift; path = Sources/NFCPassportReader/PassportReader.swift; sourceTree = "<group>"; };
+		19FFFD3208FB4AD5243E195567F389A6 /* SecurityInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecurityInfo.swift; path = Sources/NFCPassportReader/DataGroups/SecurityInfo.swift; sourceTree = "<group>"; };
+		1C573FC525B513E9D16AECD2BF720904 /* QKMRZScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QKMRZScanner.modulemap; sourceTree = "<group>"; };
+		1C6E6CC902DF609E386AB8C2E8663D23 /* QKMRZParser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QKMRZParser-Info.plist"; sourceTree = "<group>"; };
 		202AE760AB2CA48E2A83412FADD3E294 /* Pods-mydknew_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mydknew_Tests"; path = Pods_mydknew_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2207CCF1A5119E92FF3860E2004D21D3 /* QKMRZParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKMRZParser.debug.xcconfig; sourceTree = "<group>"; };
 		22A095917EE9B4572144A8FDE2B97C3A /* Pods-mydknew_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mydknew_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		232776708E815CCDA60DEEEDF47338E6 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		23F0658EC8D4917A7964A105EDE48BBF /* Bundle+pathToTrainedData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+pathToTrainedData.swift"; path = "SwiftyTesseract/SwiftyTesseract/Extensions/Bundle+pathToTrainedData.swift"; sourceTree = "<group>"; };
+		27F3ABECA640926A6402B60E88CD971A /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		2886477DFCBEC813332FB592D4C20810 /* mydknew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mydknew.release.xcconfig; sourceTree = "<group>"; };
+		290FBED8124ECB1E2E8D74FDBF67F780 /* SwiftyTesseract-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTesseract-umbrella.h"; sourceTree = "<group>"; };
 		29809420E22CCE6D141D045B96D75F90 /* Pods-mydknew_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mydknew_Example"; path = Pods_mydknew_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0DCB0B5237E10E165BFBC83B9C3819 /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "SwiftyTesseract/SwiftyTesseract/Extensions/String+Extensions.swift"; sourceTree = "<group>"; };
+		2BA782352192EE78980017EAFBF4997D /* COM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = COM.swift; path = Sources/NFCPassportReader/DataGroups/COM.swift; sourceTree = "<group>"; };
+		2DAFC447711728C85ED60D742D65E287 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		2E4CDA5C821E82F5992A45F2E54464DA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		3046C2B20EB6F8AF50B804B907796C74 /* Pods-mydknew_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mydknew_Example.modulemap"; sourceTree = "<group>"; };
+		30776D944F85AFC5540B4D12688ADBD3 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		33762A3D2E3E99BEC48E711F4F5F268B /* SimpleASN1DumpParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleASN1DumpParser.swift; path = Sources/NFCPassportReader/SimpleASN1DumpParser.swift; sourceTree = "<group>"; };
+		34BEC93432D89349404A2B048C02DC7E /* NFCPassportModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFCPassportModel.swift; path = Sources/NFCPassportReader/NFCPassportModel.swift; sourceTree = "<group>"; };
+		3590D1234FC0A9376EA3529C02AFD7A6 /* TesseractVariableName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TesseractVariableName.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/TesseractVariableName.swift; sourceTree = "<group>"; };
 		362739BE19A5101C6DB04005571C18D3 /* mydknew.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = mydknew.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		367584A9687D269ABDC99024ACE4234A /* Pods-mydknew_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mydknew_Example-umbrella.h"; sourceTree = "<group>"; };
+		389F978804B15260BF2F0054FCF367FA /* Toast-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		3A204DA64A1C7F44ECEA3369C17A5B79 /* mydknew-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mydknew-umbrella.h"; sourceTree = "<group>"; };
 		3F94CCA18A380028D5A22BB8EDB38ECC /* mydknew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mydknew.debug.xcconfig; sourceTree = "<group>"; };
+		41ED84FDFBA1680F5D992DD7E4BD0434 /* QKMRZScanResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKMRZScanResult.swift; path = QKMRZScanner/QKMRZScanResult.swift; sourceTree = "<group>"; };
+		4280F672C2896A3511B0283F8CC8885D /* SwiftyTesseract.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTesseract.release.xcconfig; sourceTree = "<group>"; };
+		443DB1138B5EB2C933495D432359852C /* NotImplementedDG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotImplementedDG.swift; path = Sources/NFCPassportReader/DataGroups/NotImplementedDG.swift; sourceTree = "<group>"; };
+		462A2B6C438652CC5DA0F6AEBFF996CD /* X509Wrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = X509Wrapper.swift; path = Sources/NFCPassportReader/X509Wrapper.swift; sourceTree = "<group>"; };
+		4986B55FB99903D336D7C8955B6744EA /* TD1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TD1.swift; path = QKMRZParser/Parsers/TD1.swift; sourceTree = "<group>"; };
+		49A8AE6CD250A777E29782C0F9437FBC /* SecureMessagingSessionKeyGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureMessagingSessionKeyGenerator.swift; path = Sources/NFCPassportReader/SecureMessagingSessionKeyGenerator.swift; sourceTree = "<group>"; };
+		4A1BA18B92E08B1C6812FF689A0B9629 /* BACHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BACHandler.swift; path = Sources/NFCPassportReader/BACHandler.swift; sourceTree = "<group>"; };
+		4A87E0FE0FF939BC5B92EC17B3A64D0A /* ChipAuthenticationHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChipAuthenticationHandler.swift; path = Sources/NFCPassportReader/ChipAuthenticationHandler.swift; sourceTree = "<group>"; };
+		4C54C46E88821EBBAE9D2D43ABF798A5 /* QKMRZParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QKMRZParser.modulemap; sourceTree = "<group>"; };
+		4DB6F23E2DC2AEC35A24653F794042EC /* tessdata */ = {isa = PBXFileReference; includeInIndex = 1; name = tessdata; path = "QKMRZScanner/Supporting Files/tessdata"; sourceTree = "<group>"; };
+		4EBE2CF0B5BE8B5A26BCAE04FB35A559 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		50278D83BD2FC6BD28EF3EDE4610BD1C /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		52163042163491E3EF2C0257726CF716 /* Pods-mydknew_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mydknew_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5736D5F154D2FD54DEBB5F5031D4790A /* LanguageStringConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageStringConverter.swift; path = SwiftyTesseract/SwiftyTesseract/Protocols/LanguageStringConverter.swift; sourceTree = "<group>"; };
 		57E178A33B076390EE23C7C5E05ED54B /* Pods-mydknew_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mydknew_Example-Info.plist"; sourceTree = "<group>"; };
+		58CED1F69C4789C515F804A716D36E46 /* CIContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIContext.swift; path = QKMRZScanner/Extensions/CIContext.swift; sourceTree = "<group>"; };
+		58D9955FE80F6BD01C3167F0361061F8 /* OpenSSL-Universal-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "OpenSSL-Universal-xcframeworks.sh"; sourceTree = "<group>"; };
 		59832D3E5E9B890E42840F8FE0005DF0 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = mydknew/Classes/Logger.swift; sourceTree = "<group>"; };
+		5B42E2B99EF695808B77222B234F673E /* DataGroup15.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataGroup15.swift; path = Sources/NFCPassportReader/DataGroups/DataGroup15.swift; sourceTree = "<group>"; };
+		5C0C71997C28785FCB1E79EB8EBFAD0C /* QKMRZScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKMRZScanner-prefix.pch"; sourceTree = "<group>"; };
+		5CC1FC3D06E0740194E2AD3A9195357D /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEA857C079A263DAC7CBDF59EC0EADF /* MRZFieldFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MRZFieldFormatter.swift; path = QKMRZParser/MRZFieldFormatter.swift; sourceTree = "<group>"; };
+		60F619209D95D95DE3A782A2659F9090 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		6135B80ABFA3B031DFFB165868BA0708 /* QKMRZScannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKMRZScannerView.swift; path = QKMRZScanner/QKMRZScannerView.swift; sourceTree = "<group>"; };
+		65500D14662757101726F0DD706CDC81 /* LanguageModelDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageModelDataSource.swift; path = SwiftyTesseract/SwiftyTesseract/Protocols/LanguageModelDataSource.swift; sourceTree = "<group>"; };
+		6557DFB337D6E5BC575B3832A06FAA63 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		6688943A565A79E763B6386BBC3CCED4 /* AES_3DES_DESEncryption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES_3DES_DESEncryption.swift; path = Sources/NFCPassportReader/AES_3DES_DESEncryption.swift; sourceTree = "<group>"; };
 		6A2DD2AC5A5D11B206C8C11CFDD0B2F3 /* Pods-mydknew_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mydknew_Tests-dummy.m"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E422C8CB1BA0AFFF1D6571AED1D1570 /* PACEHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PACEHandler.swift; path = Sources/NFCPassportReader/PACEHandler.swift; sourceTree = "<group>"; };
+		7171A48E6DC1053F56A04B9B66B50136 /* AVCaptureVideoOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVCaptureVideoOrientation.swift; path = QKMRZScanner/Extensions/AVCaptureVideoOrientation.swift; sourceTree = "<group>"; };
 		7377826DC0B507CDCFAD621EE34525F3 /* mydknew-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mydknew-prefix.pch"; sourceTree = "<group>"; };
 		756AAF1E3C62BFA5B248C4971C6D0711 /* mydknew-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "mydknew-Info.plist"; sourceTree = "<group>"; };
+		768F1DD6C5945D4EC49EEB9E5A09ACB0 /* SwiftyTesseract-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SwiftyTesseract-xcframeworks.sh"; sourceTree = "<group>"; };
+		7952513014417D7F587CC6DB8A42CE09 /* DataGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataGroup.swift; path = Sources/NFCPassportReader/DataGroups/DataGroup.swift; sourceTree = "<group>"; };
 		79B3B82D5442440013F99A72B3DF6FB9 /* Pods-mydknew_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mydknew_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		79B746DA282C47EE50A743E187FD5F45 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		7C2934BE28D8E5320630994C0CAF7071 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		7E5CCC3CF2B3B9410C8D386F3C599B7B /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		7E7F2A04196A64522CFF746071899905 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7E8F6580D1D6B8C699AD70DC04698AD3 /* NFCPassportReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFCPassportReader-prefix.pch"; sourceTree = "<group>"; };
+		7F349105766EADB719A4EC7F3571FD28 /* QKMRZScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKMRZScanner.release.xcconfig; sourceTree = "<group>"; };
+		7F41CCA075D1E54041BE203863A86CCD /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		7FAE3E42AB44B90AF991863927FBD584 /* DataGroup11.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataGroup11.swift; path = Sources/NFCPassportReader/DataGroups/DataGroup11.swift; sourceTree = "<group>"; };
+		82B5222453D06590BFC13895165D38EA /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
 		83CF5B9033A25736C6C265285773AA21 /* Pods-mydknew_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mydknew_Example-dummy.m"; sourceTree = "<group>"; };
+		840E0891DA0C7A384EA5C3D113AEEC29 /* BoundingBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoundingBox.swift; path = SwiftyTesseract/SwiftyTesseract/Structs/BoundingBox.swift; sourceTree = "<group>"; };
+		8512D46D4A0A458D81F7E3A36AD03BC0 /* libtesseract.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libtesseract.xcframework; path = SwiftyTesseract/libtesseract.xcframework; sourceTree = "<group>"; };
+		85C90266CBD32AA95725E5B0EC47D683 /* NFCPassportReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NFCPassportReader-dummy.m"; sourceTree = "<group>"; };
 		8796D3B436D33F018665673765F722CE /* Pods-mydknew_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mydknew_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		87BDD5E463434313477FBF80298C41E1 /* CIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIImage.swift; path = QKMRZScanner/Extensions/CIImage.swift; sourceTree = "<group>"; };
 		87F77529913971B357A0DB62478D5119 /* Pods-mydknew_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mydknew_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8883D5E6492F98C714262BEB7889CACA /* DataGroupParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataGroupParser.swift; path = Sources/NFCPassportReader/DataGroupParser.swift; sourceTree = "<group>"; };
 		88EF90B42F1F9D18D812C80EAF56353D /* Pods-mydknew_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mydknew_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8BE1166D557C60D6B7C09FAD58A0B109 /* Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logging.swift; path = Sources/NFCPassportReader/Logging.swift; sourceTree = "<group>"; };
+		8C362015EE8946AED1E3964C001F1649 /* ChipAuthenticationPublicKeyInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChipAuthenticationPublicKeyInfo.swift; path = Sources/NFCPassportReader/DataGroups/ChipAuthenticationPublicKeyInfo.swift; sourceTree = "<group>"; };
+		90D7A0F1A4A6FCA9F0D7EDA189073C12 /* NFCPassportReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NFCPassportReader.debug.xcconfig; sourceTree = "<group>"; };
+		90FA25E76574943CDB26A2A92DB5107F /* ResultIteratorLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultIteratorLevel.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/ResultIteratorLevel.swift; sourceTree = "<group>"; };
 		9364F5C79D2BF8DB1FF1DFF63D1E0A5D /* Pods-mydknew_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mydknew_Tests-Info.plist"; sourceTree = "<group>"; };
+		951434D0DB56D61048C44D9B95A99515 /* RecognitionLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecognitionLanguage.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/RecognitionLanguage.swift; sourceTree = "<group>"; };
+		9628C5A5AFFB53586CB3EBC456CD227C /* NFCPassportReader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NFCPassportReader-Info.plist"; sourceTree = "<group>"; };
+		968CF528FD30C83C33A7B70465D28440 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		97744CB1891CA7B69621D0B42D1AF0C8 /* SwiftyTesseract.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTesseract.swift; path = SwiftyTesseract/SwiftyTesseract/SwiftyTesseract.swift; sourceTree = "<group>"; };
+		98EC483A76BB541FEEDB8055DBA061AF /* ActiveAuthenticationInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveAuthenticationInfo.swift; path = Sources/NFCPassportReader/DataGroups/ActiveAuthenticationInfo.swift; sourceTree = "<group>"; };
 		9935A74C455CB32766225C6EF1D09C32 /* Pods-mydknew_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mydknew_Tests.modulemap"; sourceTree = "<group>"; };
+		9AE73C95F3AE423DE3E54686AEE95903 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		9B18DE8B4DAA32C92F8E6238A07D12E6 /* CVImageBuffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVImageBuffer.swift; path = QKMRZScanner/Extensions/CVImageBuffer.swift; sourceTree = "<group>"; };
+		9D79CD0F8FC1719678CBCFD19E0C7194 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FC514EFC4270D23C73892E1812958C6 /* QKMRZScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QKMRZScanner-dummy.m"; sourceTree = "<group>"; };
+		A08FCBD41D839A57026DEA6BB279E32F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A200FD19BDD8AA7BB7EAE6060F4A623D /* QKMRZScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QKMRZScanner-Info.plist"; sourceTree = "<group>"; };
+		A378826133A917364C874445DB51F6F5 /* NFCPassportReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NFCPassportReader.release.xcconfig; sourceTree = "<group>"; };
+		A37FFDE7EB2CFD3EA72457334C8A0A25 /* QKMRZScanner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QKMRZScanner; path = QKMRZScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B376B22CA529B82842A622B54C5DFE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		AA263D272CAF6F378827581C793BA3DB /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		AC34D2283BC453F1C0577D6BADBC1974 /* LuminanceThresholdFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LuminanceThresholdFilter.swift; path = QKMRZScanner/LuminanceThresholdFilter.swift; sourceTree = "<group>"; };
+		AE11719ECAC10A798DC97439F1E768AD /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		B485AAFEC9756984D6447BBE7D454DE1 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		B4917AC5B6255E1FA618F530335BA8C5 /* DataGroup1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataGroup1.swift; path = Sources/NFCPassportReader/DataGroups/DataGroup1.swift; sourceTree = "<group>"; };
+		B616B7AFCB91E98E0057519A7BF4309D /* Toast-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toast-Swift-Info.plist"; sourceTree = "<group>"; };
 		BAB371A83D5A29DCFC5C79E5756F77F2 /* Pods-mydknew_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mydknew_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BABDF22B3B162959B162E3E06CB10ED4 /* Pods-mydknew_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mydknew_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BB17A5A1BF3ABAA662DEA81E6BF0A9CD /* SecureMessaging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureMessaging.swift; path = Sources/NFCPassportReader/SecureMessaging.swift; sourceTree = "<group>"; };
 		BB64518B56E2DB471CB402CB77A176AE /* mydknew-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mydknew-dummy.m"; sourceTree = "<group>"; };
+		BCC44DC75F3D2E38986AE9E6C4E9BB0B /* SwiftyTesseract-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyTesseract-Info.plist"; sourceTree = "<group>"; };
+		BDD8277B08FACC121179E00BD93D344C /* SwiftyTesseractError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTesseractError.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/SwiftyTesseractError.swift; sourceTree = "<group>"; };
+		C1222DCBD4397B42D9A9D1ACDB07AD86 /* DataGroup14.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataGroup14.swift; path = Sources/NFCPassportReader/DataGroups/DataGroup14.swift; sourceTree = "<group>"; };
+		C20646BDFE4B2A48FF8307254B4840A5 /* DataGroup7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataGroup7.swift; path = Sources/NFCPassportReader/DataGroups/DataGroup7.swift; sourceTree = "<group>"; };
+		C2776B2C9D6B91BC179A78F95431FC49 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		C51E815CF5C6039261F0B6B878B758FD /* Pods-mydknew_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mydknew_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CB4C49754840E4BE53D1EA21ABAD4B63 /* CardAccess.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardAccess.swift; path = Sources/NFCPassportReader/DataGroups/CardAccess.swift; sourceTree = "<group>"; };
+		CE1A785C3478D4E4BFE6748F8263F651 /* TagReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TagReader.swift; path = Sources/NFCPassportReader/TagReader.swift; sourceTree = "<group>"; };
+		CE5F8D1B3F04F53AF8466BCC1ACFDFFA /* QKMRZParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKMRZParser.release.xcconfig; sourceTree = "<group>"; };
+		CF038F60951B56BB5C85E204A33E9159 /* QKMRZScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKMRZScanner.debug.xcconfig; sourceTree = "<group>"; };
+		D1379D1D2BFF2FEDF706F306955DBCC3 /* MRZField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MRZField.swift; path = QKMRZParser/MRZField.swift; sourceTree = "<group>"; };
+		D290A98D4911FB7250F4186C15CD21EC /* QKMRZParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKMRZParser-umbrella.h"; sourceTree = "<group>"; };
+		D36F55FCF99572139BD7DB12766F64F0 /* NFCPassportReader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NFCPassportReader.modulemap; sourceTree = "<group>"; };
+		D499944528A3A81F5033C81D8DA1A72D /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast-Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Toast-Swift"; path = Toast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D722A65D4C4A14FAE1A57C1BF5973F38 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		D858FED8251220F78880C0D318DB4E3F /* SwiftyTesseract.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyTesseract.modulemap; sourceTree = "<group>"; };
+		D88F7C9F81DE3B56EAAE81ECCF1EAC62 /* NFCPassportReader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFCPassportReader-umbrella.h"; sourceTree = "<group>"; };
+		D99B9999F8A6D810A9C7D8DE8FBFEFC5 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/NFCPassportReader/Utils.swift; sourceTree = "<group>"; };
+		DA407BE9C5A45B9E4A7619BF6D1480D2 /* SwiftyTesseract-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTesseract-prefix.pch"; sourceTree = "<group>"; };
+		DA957B4F423B549B5636B381E4C1FED2 /* TD3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TD3.swift; path = QKMRZParser/Parsers/TD3.swift; sourceTree = "<group>"; };
+		DAEB1A2187AD49EE910DB9525C6742FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DCE36E4C3FBD2868F47AB8CE54779A02 /* DataGroup12.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataGroup12.swift; path = Sources/NFCPassportReader/DataGroups/DataGroup12.swift; sourceTree = "<group>"; };
+		DE8157720BB8E13740236A18C04FD236 /* EngineMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EngineMode.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/EngineMode.swift; sourceTree = "<group>"; };
+		DE8EC8324436EFB5ED81D5153B6E93FF /* OpenSSL.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenSSL.xcframework; path = Frameworks/OpenSSL.xcframework; sourceTree = "<group>"; };
 		DEDED58B0B005CC9A0C6F8BEB90ADE54 /* mydknew.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = mydknew.modulemap; sourceTree = "<group>"; };
+		DF6CA66DE2CE74EAE4768A30E1A9DB89 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		E01902EC24FD1259B48A8F528F86B966 /* ChipAuthenticationInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChipAuthenticationInfo.swift; path = Sources/NFCPassportReader/DataGroups/ChipAuthenticationInfo.swift; sourceTree = "<group>"; };
 		E2E28F577E77A2E1C6C9CD39F5E98086 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E47E195A87D650FA817DE8CE53C83B21 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		E531370B1F407B22B6F9DF0EC9270606 /* OpenSSL-Universal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.debug.xcconfig"; sourceTree = "<group>"; };
+		E551F26557EE13A98FB2F8D868D7ABF8 /* QKMRZParser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QKMRZParser; path = QKMRZParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C8990F077018D59FC165877E3005CA /* DataGroupId.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataGroupId.swift; path = Sources/NFCPassportReader/DataGroups/DataGroupId.swift; sourceTree = "<group>"; };
+		E7C588D502143788AA6DD770A2DF3EF4 /* NFCPassportReader */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NFCPassportReader; path = NFCPassportReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8045C91CE6E04046BBD6B91033D12A0 /* Pods-mydknew_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mydknew_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E83776297073F316A217756CFF140804 /* PACEInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PACEInfo.swift; path = Sources/NFCPassportReader/DataGroups/PACEInfo.swift; sourceTree = "<group>"; };
+		E900E788F22CBE91EAC210F8E7146629 /* SwiftyTesseract-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyTesseract-dummy.m"; sourceTree = "<group>"; };
+		E9CB2319F3EF0FD21DCB414D6BE90A0B /* String-Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String-Ext.swift"; path = "QKMRZParser/String-Ext.swift"; sourceTree = "<group>"; };
+		EF931176659A98E5E22611E4612F0F7A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		F04737371F37E7D945A9A7316C0D5A6A /* RecognizedBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecognizedBlock.swift; path = SwiftyTesseract/SwiftyTesseract/Structs/RecognizedBlock.swift; sourceTree = "<group>"; };
+		F068745C143A83DD584CB5ACA888270F /* QKCutoutView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKCutoutView.swift; path = QKMRZScanner/QKCutoutView.swift; sourceTree = "<group>"; };
+		F17C9631BFBD191B6F824321EBEB16A6 /* SOD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SOD.swift; path = Sources/NFCPassportReader/DataGroups/SOD.swift; sourceTree = "<group>"; };
+		F34019D0963A0307C3D7DA6289B0A67F /* SwiftyTesseract.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTesseract.debug.xcconfig; sourceTree = "<group>"; };
+		F49CBD9F2C4B3A570547D6913413692C /* QKMRZScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKMRZScanner-umbrella.h"; sourceTree = "<group>"; };
+		F529CFD6747C4122A77B5EBE1300C280 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		F530BF37A9FB875C60DD2F3A9C7CFF54 /* QKMRZResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKMRZResult.swift; path = QKMRZParser/QKMRZResult.swift; sourceTree = "<group>"; };
+		F6222C00334BC507EF61E35B8FDA51CD /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		F6E3B8BC238866073523ED9347EED4C6 /* SwiftyTesseract */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyTesseract; path = SwiftyTesseract.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99F92BF9809E0B813692650662DD968 /* DataGroup2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataGroup2.swift; path = Sources/NFCPassportReader/DataGroups/DataGroup2.swift; sourceTree = "<group>"; };
+		F9BAE3150EE34E0B14816E4CE72DDAE9 /* OpenSSL-Universal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.release.xcconfig"; sourceTree = "<group>"; };
+		FA75003BC6D2BA6E031CE142D256E739 /* OpenSSLUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenSSLUtils.swift; path = Sources/NFCPassportReader/OpenSSLUtils.swift; sourceTree = "<group>"; };
+		FC0A50A713BA3C627300325EDBA708DA /* QKMRZParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKMRZParser.swift; path = QKMRZParser/QKMRZParser.swift; sourceTree = "<group>"; };
+		FD58EBF8205CF266FCD4C0BCFA572D92 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		FFD487CE45263A91664E389828C45AC0 /* TD2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TD2.swift; path = QKMRZParser/Parsers/TD2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		029395C17A3F4428EFAC05B172A7F198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9404F7E0D4C052E6FC75DE9868D392 /* Foundation.framework in Frameworks */,
+				B468CBA0FC32DBBFF01CBAE0E0FD5CA1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDEBC1279186C4DE344C5D2CCE81B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0464BDCD6CE52FE613303A5558DE30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AE6978B7DEAB3C99D6DD07D4532395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E5507F92F0DF1DD5C3AB12E53F559F /* Foundation.framework in Frameworks */,
+				87E3B15B2AA7D226CB60059610C1241A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57EDD904BB1689824C61657BF1672468 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,19 +476,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95D8EEA620711C75729BFEBBAEB15751 /* Frameworks */ = {
+		BC180631B55A12E5BE59F0484929EDAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8611E366AD60BEFA492A9A443658A4C9 /* Foundation.framework in Frameworks */,
+				78489A134C2A4ECEB76FE0153F7C3B29 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6D7C7FB960C263DE825FF31DF311D6B /* Frameworks */ = {
+		C8422CA9E760EAA1FA9AA07CFE3734F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9920C3FD8028F4A2E9A84CB571369A0 /* Foundation.framework in Frameworks */,
+				4AE5DF1FDD9964CBD0B4B3A7AE382B3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5319753AA46C87668B821A80C26AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A73F7DE4F466D12A95D0FCB2596A382 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29E75E10F3B8E316923D7D674685753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C26A468D8B846A2442987E562F9537 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7ADA0EAB22EA77F394CB04E0F0D361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5051A7C45AFD8503C656F6CD79AF61B7 /* AudioToolbox.framework in Frameworks */,
+				265C0DEFA011D36AECA8CD09FEFC741A /* AVFoundation.framework in Frameworks */,
+				5FA151D3E662DFB06864F51B4A8E26CA /* CoreImage.framework in Frameworks */,
+				A0587A0FCF9E08BEC681A8E5E13CFA17 /* Foundation.framework in Frameworks */,
+				0D921CD73C71B6D461CC8BA2872DD607 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,14 +531,22 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		1A3083D5537037803ADE665014E8D758 /* Products */ = {
+		2998C571D13D2BBDB2B5F3645D45D189 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				01FF3779242FE34BBD2D161F4E8384E2 /* mydknew */,
-				29809420E22CCE6D141D045B96D75F90 /* Pods-mydknew_Example */,
-				202AE760AB2CA48E2A83412FADD3E294 /* Pods-mydknew_Tests */,
+				8512D46D4A0A458D81F7E3A36AD03BC0 /* libtesseract.xcframework */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B3581BE475D18D46B588C66B0A2F04C /* OpenSSL-Universal */ = {
+			isa = PBXGroup;
+			children = (
+				B4031D24480EE7839BDF7CE84910687A /* Frameworks */,
+				7FDAD6D2D740401EF112D23866589D5D /* Support Files */,
+			);
+			name = "OpenSSL-Universal";
+			path = "OpenSSL-Universal";
 			sourceTree = "<group>";
 		};
 		3072E07F7F4A0B51AAE6B855B2A57FF1 /* mydknew */ = {
@@ -127,6 +558,74 @@
 			);
 			name = mydknew;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		3264178E29344994B9A4059F191A87BC /* NFCPassportReader */ = {
+			isa = PBXGroup;
+			children = (
+				98EC483A76BB541FEEDB8055DBA061AF /* ActiveAuthenticationInfo.swift */,
+				6688943A565A79E763B6386BBC3CCED4 /* AES_3DES_DESEncryption.swift */,
+				4A1BA18B92E08B1C6812FF689A0B9629 /* BACHandler.swift */,
+				CB4C49754840E4BE53D1EA21ABAD4B63 /* CardAccess.swift */,
+				4A87E0FE0FF939BC5B92EC17B3A64D0A /* ChipAuthenticationHandler.swift */,
+				E01902EC24FD1259B48A8F528F86B966 /* ChipAuthenticationInfo.swift */,
+				8C362015EE8946AED1E3964C001F1649 /* ChipAuthenticationPublicKeyInfo.swift */,
+				2BA782352192EE78980017EAFBF4997D /* COM.swift */,
+				7952513014417D7F587CC6DB8A42CE09 /* DataGroup.swift */,
+				B4917AC5B6255E1FA618F530335BA8C5 /* DataGroup1.swift */,
+				7FAE3E42AB44B90AF991863927FBD584 /* DataGroup11.swift */,
+				DCE36E4C3FBD2868F47AB8CE54779A02 /* DataGroup12.swift */,
+				C1222DCBD4397B42D9A9D1ACDB07AD86 /* DataGroup14.swift */,
+				5B42E2B99EF695808B77222B234F673E /* DataGroup15.swift */,
+				F99F92BF9809E0B813692650662DD968 /* DataGroup2.swift */,
+				C20646BDFE4B2A48FF8307254B4840A5 /* DataGroup7.swift */,
+				073E42FF8EA5F4A0C18C00626545DEB9 /* DataGroupHash.swift */,
+				E6C8990F077018D59FC165877E3005CA /* DataGroupId.swift */,
+				8883D5E6492F98C714262BEB7889CACA /* DataGroupParser.swift */,
+				05606AD8C77E628E2494EFCE3DC83C7B /* Errors.swift */,
+				8BE1166D557C60D6B7C09FAD58A0B109 /* Logging.swift */,
+				34BEC93432D89349404A2B048C02DC7E /* NFCPassportModel.swift */,
+				16B229FFF68BF60D80F23F0DA1E0067F /* NFCViewDisplayMessage.swift */,
+				443DB1138B5EB2C933495D432359852C /* NotImplementedDG.swift */,
+				FA75003BC6D2BA6E031CE142D256E739 /* OpenSSLUtils.swift */,
+				6E422C8CB1BA0AFFF1D6571AED1D1570 /* PACEHandler.swift */,
+				E83776297073F316A217756CFF140804 /* PACEInfo.swift */,
+				18E6773F3AC6B9F92C43C81CA575D486 /* PassportReader.swift */,
+				0F2566EE743565F382A5716F48D0594A /* ResponseAPDU.swift */,
+				BB17A5A1BF3ABAA662DEA81E6BF0A9CD /* SecureMessaging.swift */,
+				49A8AE6CD250A777E29782C0F9437FBC /* SecureMessagingSessionKeyGenerator.swift */,
+				19FFFD3208FB4AD5243E195567F389A6 /* SecurityInfo.swift */,
+				33762A3D2E3E99BEC48E711F4F5F268B /* SimpleASN1DumpParser.swift */,
+				F17C9631BFBD191B6F824321EBEB16A6 /* SOD.swift */,
+				CE1A785C3478D4E4BFE6748F8263F651 /* TagReader.swift */,
+				D99B9999F8A6D810A9C7D8DE8FBFEFC5 /* Utils.swift */,
+				462A2B6C438652CC5DA0F6AEBFF996CD /* X509Wrapper.swift */,
+				FC609133646E5F74E8AAE53DCF756CB7 /* Support Files */,
+			);
+			name = NFCPassportReader;
+			path = NFCPassportReader;
+			sourceTree = "<group>";
+		};
+		32A2CCC17725F9337DE6EB23D0F895A5 /* SwiftyTesseract */ = {
+			isa = PBXGroup;
+			children = (
+				840E0891DA0C7A384EA5C3D113AEEC29 /* BoundingBox.swift */,
+				23F0658EC8D4917A7964A105EDE48BBF /* Bundle+pathToTrainedData.swift */,
+				DE8157720BB8E13740236A18C04FD236 /* EngineMode.swift */,
+				65500D14662757101726F0DD706CDC81 /* LanguageModelDataSource.swift */,
+				5736D5F154D2FD54DEBB5F5031D4790A /* LanguageStringConverter.swift */,
+				951434D0DB56D61048C44D9B95A99515 /* RecognitionLanguage.swift */,
+				F04737371F37E7D945A9A7316C0D5A6A /* RecognizedBlock.swift */,
+				90FA25E76574943CDB26A2A92DB5107F /* ResultIteratorLevel.swift */,
+				2B0DCB0B5237E10E165BFBC83B9C3819 /* String+Extensions.swift */,
+				97744CB1891CA7B69621D0B42D1AF0C8 /* SwiftyTesseract.swift */,
+				BDD8277B08FACC121179E00BD93D344C /* SwiftyTesseractError.swift */,
+				3590D1234FC0A9376EA3529C02AFD7A6 /* TesseractVariableName.swift */,
+				2998C571D13D2BBDB2B5F3645D45D189 /* Frameworks */,
+				EBA25C414DC1ED7360B3C1070F080830 /* Support Files */,
+			);
+			name = SwiftyTesseract;
+			path = SwiftyTesseract;
 			sourceTree = "<group>";
 		};
 		33E61F8FC8260405DE85F4909FD6FA90 /* Pods-mydknew_Tests */ = {
@@ -145,12 +644,51 @@
 			path = "Target Support Files/Pods-mydknew_Tests";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		3C54544F165F1DE5F1C8EC59A15CA504 /* QKMRZScanner */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				7171A48E6DC1053F56A04B9B66B50136 /* AVCaptureVideoOrientation.swift */,
+				58CED1F69C4789C515F804A716D36E46 /* CIContext.swift */,
+				87BDD5E463434313477FBF80298C41E1 /* CIImage.swift */,
+				9B18DE8B4DAA32C92F8E6238A07D12E6 /* CVImageBuffer.swift */,
+				AC34D2283BC453F1C0577D6BADBC1974 /* LuminanceThresholdFilter.swift */,
+				F068745C143A83DD584CB5ACA888270F /* QKCutoutView.swift */,
+				6135B80ABFA3B031DFFB165868BA0708 /* QKMRZScannerView.swift */,
+				41ED84FDFBA1680F5D992DD7E4BD0434 /* QKMRZScanResult.swift */,
+				6FACD6E5F52F51578D61867D6E514375 /* Resources */,
+				B566F3A89AAAA8BCB61DD971D8FEFE0B /* Support Files */,
+			);
+			name = QKMRZScanner;
+			path = QKMRZScanner;
+			sourceTree = "<group>";
+		};
+		5688FED8C25E9BE6F2254A2243AFDF4D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EF931176659A98E5E22611E4612F0F7A /* AudioToolbox.framework */,
+				2E4CDA5C821E82F5992A45F2E54464DA /* AVFoundation.framework */,
+				7F41CCA075D1E54041BE203863A86CCD /* CoreImage.framework */,
+				A08FCBD41D839A57026DEA6BB279E32F /* Foundation.framework */,
+				A7B376B22CA529B82842A622B54C5DFE /* QuartzCore.framework */,
+				DAEB1A2187AD49EE910DB9525C6742FA /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C6C94A7E5E447EE297473A557B742D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				01FF3779242FE34BBD2D161F4E8384E2 /* mydknew */,
+				E7C588D502143788AA6DD770A2DF3EF4 /* NFCPassportReader */,
+				29809420E22CCE6D141D045B96D75F90 /* Pods-mydknew_Example */,
+				202AE760AB2CA48E2A83412FADD3E294 /* Pods-mydknew_Tests */,
+				E551F26557EE13A98FB2F8D868D7ABF8 /* QKMRZParser */,
+				A37FFDE7EB2CFD3EA72457334C8A0A25 /* QKMRZScanner */,
+				F6E3B8BC238866073523ED9347EED4C6 /* SwiftyTesseract */,
+				D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast-Swift */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		61BB63C47FBC42A9DFC63C2371CD9722 /* Targets Support Files */ = {
@@ -160,6 +698,96 @@
 				33E61F8FC8260405DE85F4909FD6FA90 /* Pods-mydknew_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		653039A6DECBBAE6C91F0654B2EE0B41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82B5222453D06590BFC13895165D38EA /* Toast-Swift.modulemap */,
+				30776D944F85AFC5540B4D12688ADBD3 /* Toast-Swift-dummy.m */,
+				B616B7AFCB91E98E0057519A7BF4309D /* Toast-Swift-Info.plist */,
+				F529CFD6747C4122A77B5EBE1300C280 /* Toast-Swift-prefix.pch */,
+				232776708E815CCDA60DEEEDF47338E6 /* Toast-Swift-umbrella.h */,
+				389F978804B15260BF2F0054FCF367FA /* Toast-Swift.debug.xcconfig */,
+				0003A3CAB84F871BE77148CFCFC9A047 /* Toast-Swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
+		6C69CC0BCB0B0D554CA02F170C89E261 /* QKMRZParser */ = {
+			isa = PBXGroup;
+			children = (
+				D1379D1D2BFF2FEDF706F306955DBCC3 /* MRZField.swift */,
+				5FEA857C079A263DAC7CBDF59EC0EADF /* MRZFieldFormatter.swift */,
+				FC0A50A713BA3C627300325EDBA708DA /* QKMRZParser.swift */,
+				F530BF37A9FB875C60DD2F3A9C7CFF54 /* QKMRZResult.swift */,
+				E9CB2319F3EF0FD21DCB414D6BE90A0B /* String-Ext.swift */,
+				4986B55FB99903D336D7C8955B6744EA /* TD1.swift */,
+				FFD487CE45263A91664E389828C45AC0 /* TD2.swift */,
+				DA957B4F423B549B5636B381E4C1FED2 /* TD3.swift */,
+				9B6780FB509FC333CB276AFE265B314F /* Support Files */,
+			);
+			name = QKMRZParser;
+			path = QKMRZParser;
+			sourceTree = "<group>";
+		};
+		6FACD6E5F52F51578D61867D6E514375 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DB6F23E2DC2AEC35A24653F794042EC /* tessdata */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7FDAD6D2D740401EF112D23866589D5D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58D9955FE80F6BD01C3167F0361061F8 /* OpenSSL-Universal-xcframeworks.sh */,
+				E531370B1F407B22B6F9DF0EC9270606 /* OpenSSL-Universal.debug.xcconfig */,
+				F9BAE3150EE34E0B14816E4CE72DDAE9 /* OpenSSL-Universal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpenSSL-Universal";
+			sourceTree = "<group>";
+		};
+		7FE64C8C6FCCAECF010A7A6B1C811021 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C90D05B14518D153432F500469B55D52 /* Alamofire */,
+				3264178E29344994B9A4059F191A87BC /* NFCPassportReader */,
+				2B3581BE475D18D46B588C66B0A2F04C /* OpenSSL-Universal */,
+				6C69CC0BCB0B0D554CA02F170C89E261 /* QKMRZParser */,
+				3C54544F165F1DE5F1C8EC59A15CA504 /* QKMRZScanner */,
+				32A2CCC17725F9337DE6EB23D0F895A5 /* SwiftyTesseract */,
+				9AF50FA96F5EC27E0009914EE1258244 /* Toast-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AF50FA96F5EC27E0009914EE1258244 /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F6222C00334BC507EF61E35B8FDA51CD /* Toast.swift */,
+				653039A6DECBBAE6C91F0654B2EE0B41 /* Support Files */,
+			);
+			name = "Toast-Swift";
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
+		9B6780FB509FC333CB276AFE265B314F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C54C46E88821EBBAE9D2D43ABF798A5 /* QKMRZParser.modulemap */,
+				01883D9F39DDFA28E4DC79E090341DA9 /* QKMRZParser-dummy.m */,
+				1C6E6CC902DF609E386AB8C2E8663D23 /* QKMRZParser-Info.plist */,
+				09C396D01EFF029D4AA358370F30D17A /* QKMRZParser-prefix.pch */,
+				D290A98D4911FB7250F4186C15CD21EC /* QKMRZParser-umbrella.h */,
+				2207CCF1A5119E92FF3860E2004D21D3 /* QKMRZParser.debug.xcconfig */,
+				CE5F8D1B3F04F53AF8466BCC1ACFDFFA /* QKMRZParser.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QKMRZParser";
 			sourceTree = "<group>";
 		};
 		A4EA2945B72EEAE3DFFEFC5CDB9A3081 /* Pods-mydknew_Example */ = {
@@ -179,6 +807,29 @@
 			path = "Target Support Files/Pods-mydknew_Example";
 			sourceTree = "<group>";
 		};
+		B4031D24480EE7839BDF7CE84910687A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE8EC8324436EFB5ED81D5153B6E93FF /* OpenSSL.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B566F3A89AAAA8BCB61DD971D8FEFE0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C573FC525B513E9D16AECD2BF720904 /* QKMRZScanner.modulemap */,
+				9FC514EFC4270D23C73892E1812958C6 /* QKMRZScanner-dummy.m */,
+				A200FD19BDD8AA7BB7EAE6060F4A623D /* QKMRZScanner-Info.plist */,
+				5C0C71997C28785FCB1E79EB8EBFAD0C /* QKMRZScanner-prefix.pch */,
+				F49CBD9F2C4B3A570547D6913413692C /* QKMRZScanner-umbrella.h */,
+				CF038F60951B56BB5C85E204A33E9159 /* QKMRZScanner.debug.xcconfig */,
+				7F349105766EADB719A4EC7F3571FD28 /* QKMRZScanner.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QKMRZScanner";
+			sourceTree = "<group>";
+		};
 		C00974F58DBE7B0EA6AA12C7AE3A7D7F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,21 +840,48 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		C90D05B14518D153432F500469B55D52 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				C2776B2C9D6B91BC179A78F95431FC49 /* AFError.swift */,
+				7C2934BE28D8E5320630994C0CAF7071 /* Alamofire.swift */,
+				DF6CA66DE2CE74EAE4768A30E1A9DB89 /* DispatchQueue+Alamofire.swift */,
+				50278D83BD2FC6BD28EF3EDE4610BD1C /* MultipartFormData.swift */,
+				B485AAFEC9756984D6447BBE7D454DE1 /* NetworkReachabilityManager.swift */,
+				AA263D272CAF6F378827581C793BA3DB /* Notifications.swift */,
+				2DAFC447711728C85ED60D742D65E287 /* ParameterEncoding.swift */,
+				FD58EBF8205CF266FCD4C0BCFA572D92 /* Request.swift */,
+				27F3ABECA640926A6402B60E88CD971A /* Response.swift */,
+				D722A65D4C4A14FAE1A57C1BF5973F38 /* ResponseSerialization.swift */,
+				9AE73C95F3AE423DE3E54686AEE95903 /* Result.swift */,
+				09CDFD605A4439DA87F2140DA7DA7A5C /* ServerTrustPolicy.swift */,
+				5CC1FC3D06E0740194E2AD3A9195357D /* SessionDelegate.swift */,
+				79B746DA282C47EE50A743E187FD5F45 /* SessionManager.swift */,
+				968CF528FD30C83C33A7B70465D28440 /* TaskDelegate.swift */,
+				7E5CCC3CF2B3B9410C8D386F3C599B7B /* Timeline.swift */,
+				AE11719ECAC10A798DC97439F1E768AD /* Validation.swift */,
+				DD0E3FAB0902EF9138558C023654F90A /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				08671DDC427D4EEB289AA38ED89D52AE /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1A3083D5537037803ADE665014E8D758 /* Products */,
+				D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */,
+				7FE64C8C6FCCAECF010A7A6B1C811021 /* Pods */,
+				5C6C94A7E5E447EE297473A557B742D9 /* Products */,
 				61BB63C47FBC42A9DFC63C2371CD9722 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				5688FED8C25E9BE6F2254A2243AFDF4D /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,9 +901,79 @@
 			path = "Example/Pods/Target Support Files/mydknew";
 			sourceTree = "<group>";
 		};
+		DD0E3FAB0902EF9138558C023654F90A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D79CD0F8FC1719678CBCFD19E0C7194 /* Alamofire.modulemap */,
+				4EBE2CF0B5BE8B5A26BCAE04FB35A559 /* Alamofire-dummy.m */,
+				E47E195A87D650FA817DE8CE53C83B21 /* Alamofire-Info.plist */,
+				D499944528A3A81F5033C81D8DA1A72D /* Alamofire-prefix.pch */,
+				145BB9F15D5992D4869DC3A9C23E8D2E /* Alamofire-umbrella.h */,
+				60F619209D95D95DE3A782A2659F9090 /* Alamofire.debug.xcconfig */,
+				6557DFB337D6E5BC575B3832A06FAA63 /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		EBA25C414DC1ED7360B3C1070F080830 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D858FED8251220F78880C0D318DB4E3F /* SwiftyTesseract.modulemap */,
+				E900E788F22CBE91EAC210F8E7146629 /* SwiftyTesseract-dummy.m */,
+				BCC44DC75F3D2E38986AE9E6C4E9BB0B /* SwiftyTesseract-Info.plist */,
+				DA407BE9C5A45B9E4A7619BF6D1480D2 /* SwiftyTesseract-prefix.pch */,
+				290FBED8124ECB1E2E8D74FDBF67F780 /* SwiftyTesseract-umbrella.h */,
+				768F1DD6C5945D4EC49EEB9E5A09ACB0 /* SwiftyTesseract-xcframeworks.sh */,
+				F34019D0963A0307C3D7DA6289B0A67F /* SwiftyTesseract.debug.xcconfig */,
+				4280F672C2896A3511B0283F8CC8885D /* SwiftyTesseract.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyTesseract";
+			sourceTree = "<group>";
+		};
+		FC609133646E5F74E8AAE53DCF756CB7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D36F55FCF99572139BD7DB12766F64F0 /* NFCPassportReader.modulemap */,
+				85C90266CBD32AA95725E5B0EC47D683 /* NFCPassportReader-dummy.m */,
+				9628C5A5AFFB53586CB3EBC456CD227C /* NFCPassportReader-Info.plist */,
+				7E8F6580D1D6B8C699AD70DC04698AD3 /* NFCPassportReader-prefix.pch */,
+				D88F7C9F81DE3B56EAAE81ECCF1EAC62 /* NFCPassportReader-umbrella.h */,
+				90D7A0F1A4A6FCA9F0D7EDA189073C12 /* NFCPassportReader.debug.xcconfig */,
+				A378826133A917364C874445DB51F6F5 /* NFCPassportReader.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NFCPassportReader";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4DAAC91FA1E9D14919AD465138A12D4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C05B96283179D090C78C2D6515A4DE /* Pods-mydknew_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DABE40D8284946A924A02B546257DE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9146510540C8DAF109CC4BCCB0CA74A9 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D019064C2255A3D74C25BDF1937802 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF20C741EBB18F936CA31F2E41DC9F23 /* Toast-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B91CF2E20CB262649E4EC34A1D32C4B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,19 +982,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C8EF90FB49EC5B1BEC5FD041B4DBCF9 /* Headers */ = {
+		8CF8CFE1E47CCEDA4970086DBF23324F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8A6EC06BA1901B9D47479ED0A3BCFCB /* mydknew-umbrella.h in Headers */,
+				A5B2C4A347383797E9C60A12BC2439CA /* mydknew-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EFF21FF7E89D2AA56CD62BEE2AE67378 /* Headers */ = {
+		915CD033BDCAC78FCF4FFD294C0DA8D4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69A211E6A464DD5CBB54BE436B719808 /* Pods-mydknew_Example-umbrella.h in Headers */,
+				0CB98B6FDBE527E28AF406AEDD300023 /* NFCPassportReader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6ED7AE17783E13DE6D02C456C9252C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DF24D3C4DF26DDA3301CBDCBBD74DA /* QKMRZParser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D227D2808D173833F588C9F69F292956 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23ACAA795BE579853C99135CF63CDA71 /* QKMRZScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB06F12D6EFE8BF1343AF37E5081D466 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699E796E6113D4D45845E2FE4B6D5DB /* SwiftyTesseract-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,26 +1037,90 @@
 			buildRules = (
 			);
 			dependencies = (
-				B18842845D3AC3F25FD3AE527975E1AC /* PBXTargetDependency */,
+				7F65A439B6D713F687C3F6B2F9264CF6 /* PBXTargetDependency */,
 			);
 			name = "Pods-mydknew_Tests";
 			productName = Pods_mydknew_Tests;
 			productReference = 202AE760AB2CA48E2A83412FADD3E294 /* Pods-mydknew_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
-		7AD7E24D31F8126B020FB138568870D1 /* Pods-mydknew_Example */ = {
+		44846E5E2172F853B4F70588F8115052 /* QKMRZParser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A58454170059FAD62894AC761FD58AC /* Build configuration list for PBXNativeTarget "Pods-mydknew_Example" */;
+			buildConfigurationList = 0F0565F341300B90AE09D23E53E2C646 /* Build configuration list for PBXNativeTarget "QKMRZParser" */;
 			buildPhases = (
-				EFF21FF7E89D2AA56CD62BEE2AE67378 /* Headers */,
-				50A7EE4843CB739C35BEEBF8C18FC79E /* Sources */,
-				C6D7C7FB960C263DE825FF31DF311D6B /* Frameworks */,
-				245ECE0BB2EDD2DA34EA44A49BE247A4 /* Resources */,
+				C6ED7AE17783E13DE6D02C456C9252C4 /* Headers */,
+				2F0D817CCC89035771C620D611E1C97F /* Sources */,
+				C8422CA9E760EAA1FA9AA07CFE3734F4 /* Frameworks */,
+				CA63CABCC3A6C2F9077964DF980A9D64 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				636FD583871E2E5ABA50BAA5710F84C6 /* PBXTargetDependency */,
+			);
+			name = QKMRZParser;
+			productName = QKMRZParser;
+			productReference = E551F26557EE13A98FB2F8D868D7ABF8 /* QKMRZParser */;
+			productType = "com.apple.product-type.framework";
+		};
+		5FDA8701204211983085669C4E12E6FE /* SwiftyTesseract */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A69BDD9DFE3FA3D8001E0507C3EB0E5 /* Build configuration list for PBXNativeTarget "SwiftyTesseract" */;
+			buildPhases = (
+				FB06F12D6EFE8BF1343AF37E5081D466 /* Headers */,
+				4D01FC97E2D351311B5EBEE08DA14631 /* [CP] Copy XCFrameworks */,
+				063FB9CF5EF17898330DCFEAC5603FDE /* Sources */,
+				029395C17A3F4428EFAC05B172A7F198 /* Frameworks */,
+				299A142EF5AA82038BB1AA85AF35E6AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyTesseract;
+			productName = SwiftyTesseract;
+			productReference = F6E3B8BC238866073523ED9347EED4C6 /* SwiftyTesseract */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A27FBFB272D0D46BF9B937D5AEEA741 /* QKMRZScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD6A8C8ED8CA9347E6E09F5EAAC356A /* Build configuration list for PBXNativeTarget "QKMRZScanner" */;
+			buildPhases = (
+				D227D2808D173833F588C9F69F292956 /* Headers */,
+				739B088C39894BF83E93F677B2D436E2 /* Sources */,
+				FC7ADA0EAB22EA77F394CB04E0F0D361 /* Frameworks */,
+				43F37DD194B90150659D66ABACF0C988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1223203BB8C15631BBBEF658901667A5 /* PBXTargetDependency */,
+				255AE71D31D824C6B02F1D815CE16FEA /* PBXTargetDependency */,
+			);
+			name = QKMRZScanner;
+			productName = QKMRZScanner;
+			productReference = A37FFDE7EB2CFD3EA72457334C8A0A25 /* QKMRZScanner */;
+			productType = "com.apple.product-type.framework";
+		};
+		7AD7E24D31F8126B020FB138568870D1 /* Pods-mydknew_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F0265797224E2E4E226EDE36358594 /* Build configuration list for PBXNativeTarget "Pods-mydknew_Example" */;
+			buildPhases = (
+				4DAAC91FA1E9D14919AD465138A12D4E /* Headers */,
+				7385ACB4B5C91A3882B7C029ABBC16FE /* Sources */,
+				DC5319753AA46C87668B821A80C26AFB /* Frameworks */,
+				71266E5439B538F6D423A50DE8C8147C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E4ED2A70B3B19316D29D82254B3AA06 /* PBXTargetDependency */,
+				7E1455E2E43ADA45C4B531A15EB3630F /* PBXTargetDependency */,
+				951EB571C89D033FEE3481D4B2B297E6 /* PBXTargetDependency */,
+				1C043158BBE3D52F483F4918BCBE1D0B /* PBXTargetDependency */,
+				0B3CF30395B2213383B933DC82709D7D /* PBXTargetDependency */,
+				899BA92E859184272905AEE75D2EC184 /* PBXTargetDependency */,
+				A4404123BA6FACE5DA5AA290C96433EF /* PBXTargetDependency */,
+				BDD18E9B526C69AE00DF118A60715C40 /* PBXTargetDependency */,
 			);
 			name = "Pods-mydknew_Example";
 			productName = Pods_mydknew_Example;
@@ -293,20 +1129,80 @@
 		};
 		97A4A466DE383E2E81A30AC9A6A29250 /* mydknew */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B60E1FAB7A159EA5DA1B14DBB9DD97CA /* Build configuration list for PBXNativeTarget "mydknew" */;
+			buildConfigurationList = 8B620DF2D8AD35059BC377D722DA0FFE /* Build configuration list for PBXNativeTarget "mydknew" */;
 			buildPhases = (
-				7C8EF90FB49EC5B1BEC5FD041B4DBCF9 /* Headers */,
-				2AA82AA2976E05D10201F40A4A800C8F /* Sources */,
-				95D8EEA620711C75729BFEBBAEB15751 /* Frameworks */,
-				0B52F942ABC3B6C995CB26C64091CC53 /* Resources */,
+				8CF8CFE1E47CCEDA4970086DBF23324F /* Headers */,
+				6DBF73063485581EF11201B535BCA354 /* Sources */,
+				BC180631B55A12E5BE59F0484929EDAC /* Frameworks */,
+				20FECD3AAEDAF03298F19D513DAA579A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1281476A7F35C41F9E9AC3B91D5A2559 /* PBXTargetDependency */,
+				6F6446D2F78FAAB2FD5EAF40CD0C788C /* PBXTargetDependency */,
+				5789307E0BEAB780BB50F50AA9A29C38 /* PBXTargetDependency */,
+				4C0C5E4574E0BE2D568CCDB3DEFBA853 /* PBXTargetDependency */,
+				A5D7AAFB17704A5EF503E9C2A7833FAA /* PBXTargetDependency */,
+			);
+			name = mydknew;
+			productName = mydknew;
+			productReference = 01FF3779242FE34BBD2D161F4E8384E2 /* mydknew */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7BF2183371AE1848A42AD5EEF38B8DB /* NFCPassportReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5043C9A88D8D1DE99FF9473EE7A857FD /* Build configuration list for PBXNativeTarget "NFCPassportReader" */;
+			buildPhases = (
+				915CD033BDCAC78FCF4FFD294C0DA8D4 /* Headers */,
+				E5744350ABDC912C024C4F031D98A81A /* Sources */,
+				F29E75E10F3B8E316923D7D674685753 /* Frameworks */,
+				D06BBE6DFB7E5B7A06AFF08D7089F11D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8925674821E8583308A6730F929ABE9E /* PBXTargetDependency */,
+			);
+			name = NFCPassportReader;
+			productName = NFCPassportReader;
+			productReference = E7C588D502143788AA6DD770A2DF3EF4 /* NFCPassportReader */;
+			productType = "com.apple.product-type.framework";
+		};
+		B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3393B836BCDFD5292B077E63A26DC97F /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildPhases = (
+				63D019064C2255A3D74C25BDF1937802 /* Headers */,
+				C576B265A93E25312929172E0AB5B460 /* Sources */,
+				27AE6978B7DEAB3C99D6DD07D4532395 /* Frameworks */,
+				39537AB4608D9B5FE694169E21AD9F19 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = mydknew;
-			productName = mydknew;
-			productReference = 01FF3779242FE34BBD2D161F4E8384E2 /* mydknew */;
+			name = "Toast-Swift";
+			productName = Toast_Swift;
+			productReference = D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast-Swift */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887CAE7F79D14F7AF2714DC8BABA9E38 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				5DABE40D8284946A924A02B546257DE2 /* Headers */,
+				91DE88C3249026C72068864CF85B8193 /* Sources */,
+				1FDEBC1279186C4DE344C5D2CCE81B3D /* Frameworks */,
+				C2B76647EA315A3658A600739CC6D453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,26 +1223,40 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1A3083D5537037803ADE665014E8D758 /* Products */;
+			productRefGroup = 5C6C94A7E5E447EE297473A557B742D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
 				97A4A466DE383E2E81A30AC9A6A29250 /* mydknew */,
+				A7BF2183371AE1848A42AD5EEF38B8DB /* NFCPassportReader */,
+				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
 				7AD7E24D31F8126B020FB138568870D1 /* Pods-mydknew_Example */,
 				121A078595B912CFC8F8C75B1DF87FDB /* Pods-mydknew_Tests */,
+				44846E5E2172F853B4F70588F8115052 /* QKMRZParser */,
+				6A27FBFB272D0D46BF9B937D5AEEA741 /* QKMRZScanner */,
+				5FDA8701204211983085669C4E12E6FE /* SwiftyTesseract */,
+				B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0B52F942ABC3B6C995CB26C64091CC53 /* Resources */ = {
+		20FECD3AAEDAF03298F19D513DAA579A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		245ECE0BB2EDD2DA34EA44A49BE247A4 /* Resources */ = {
+		299A142EF5AA82038BB1AA85AF35E6AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39537AB4608D9B5FE694169E21AD9F19 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,9 +1270,104 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		43F37DD194B90150659D66ABACF0C988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46662EAF82C1457A9AFECFEACCB3095 /* tessdata in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71266E5439B538F6D423A50DE8C8147C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B76647EA315A3658A600739CC6D453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA63CABCC3A6C2F9077964DF980A9D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06BBE6DFB7E5B7A06AFF08D7089F11D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D01FC97E2D351311B5EBEE08DA14631 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/SwiftyTesseract/SwiftyTesseract-xcframeworks.sh",
+				"${PODS_ROOT}/SwiftyTesseract/SwiftyTesseract/libtesseract.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SwiftyTesseract/libtesseract.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/SwiftyTesseract/SwiftyTesseract-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		852F182579276A76FBF60ED8DCB23D1F /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/OpenSSL-Universal/OpenSSL-Universal-xcframeworks.sh",
+				"${PODS_ROOT}/OpenSSL-Universal/Frameworks/OpenSSL.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/OpenSSL-Universal/OpenSSL-Universal-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		063FB9CF5EF17898330DCFEAC5603FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FD35915EC7BB19E7F4ACB9011BD26E /* BoundingBox.swift in Sources */,
+				4E08DCC987FC46133FD894611D4E329A /* Bundle+pathToTrainedData.swift in Sources */,
+				4DDC6D5DC10EC18D4CAD8C88E1306759 /* EngineMode.swift in Sources */,
+				207FEE7C6587D7CC354B826D7B14257C /* LanguageModelDataSource.swift in Sources */,
+				D603180BFD668708BF5651FC5C1956FE /* LanguageStringConverter.swift in Sources */,
+				E1B9037BA18A61BB4B890E7631F9F0E9 /* RecognitionLanguage.swift in Sources */,
+				83E41616744AAB9AFB9384211A4CA3BD /* RecognizedBlock.swift in Sources */,
+				CFA5968A5AED330BDBE1B15BC6FE6BFE /* ResultIteratorLevel.swift in Sources */,
+				AD527BC45351214EE895811686B95AF9 /* String+Extensions.swift in Sources */,
+				20980E99E4E18001EE552D08E91C11EB /* SwiftyTesseract.swift in Sources */,
+				3B831DA67CF0CDBB3F46F145735043EA /* SwiftyTesseract-dummy.m in Sources */,
+				32EEB074DFB960C78E5F1720F1500E28 /* SwiftyTesseractError.swift in Sources */,
+				807FC3E692F44703DB264748B2CEB479 /* TesseractVariableName.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		10ADAF3FE55FF642C06484B8804970DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,46 +1376,571 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AA82AA2976E05D10201F40A4A800C8F /* Sources */ = {
+		2F0D817CCC89035771C620D611E1C97F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8193E2A5AA13A4A54B26C5C0D537E19F /* Logger.swift in Sources */,
-				1E02506B5715E55163730D8C977374BC /* mydknew-dummy.m in Sources */,
+				78AD3535009ADDFFAB51D9225A70F4B1 /* MRZField.swift in Sources */,
+				07D3D2A9916D3FF5B473D73D765F9548 /* MRZFieldFormatter.swift in Sources */,
+				CAE6A68B3DD0190EA8FDAAAA57C68ECE /* QKMRZParser.swift in Sources */,
+				F70CCF1944F4CD7024D554E7A0F061F0 /* QKMRZParser-dummy.m in Sources */,
+				DF25543EADC48DF08FF031F8C8AC61BB /* QKMRZResult.swift in Sources */,
+				9C9B071E7F00175D672265FBD1CA68EA /* String-Ext.swift in Sources */,
+				23093FCEAC010BA1302340B24AFA07AE /* TD1.swift in Sources */,
+				7474BD04CCCB55B5D04BBC3FC3034797 /* TD2.swift in Sources */,
+				6B08F453594587DEEBF0735DF4AC6AE5 /* TD3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50A7EE4843CB739C35BEEBF8C18FC79E /* Sources */ = {
+		6DBF73063485581EF11201B535BCA354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCC8DAB8A3F0AA9F2ED62FC5B9CA0864 /* Pods-mydknew_Example-dummy.m in Sources */,
+				36CA7359E593F178CFC8F8D49200C7B6 /* Logger.swift in Sources */,
+				CFD67EE0E7487237999BE755007944D9 /* mydknew-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7385ACB4B5C91A3882B7C029ABBC16FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817E83258C8D78240D555EDE2D359A8F /* Pods-mydknew_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739B088C39894BF83E93F677B2D436E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5CEFC3FE47D7F9EF8DA078A2A5233A /* AVCaptureVideoOrientation.swift in Sources */,
+				FFF532ACFCA70CE68D20F4FE85D4C416 /* CIContext.swift in Sources */,
+				089E44BA02686D31A8D56AD1D62EE14B /* CIImage.swift in Sources */,
+				0CD6763B269134C69EE499E61C22F869 /* CVImageBuffer.swift in Sources */,
+				B06230586ADBF6DBF12DA854C7CE60E5 /* LuminanceThresholdFilter.swift in Sources */,
+				1EEF1CD1728F625D6832CD1871DD8EE6 /* QKCutoutView.swift in Sources */,
+				6AC0F50003ABCF9FB23A47D78AFC7852 /* QKMRZScanner-dummy.m in Sources */,
+				03FE102F2C5B8D3D6570E41C317A6E66 /* QKMRZScannerView.swift in Sources */,
+				AEB4D385A054641A31E36BA66B6FA6B5 /* QKMRZScanResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DE88C3249026C72068864CF85B8193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E42B43904F2F22CA3A8BBD0155D9A2 /* AFError.swift in Sources */,
+				70EA6F068498CEC1B273D6BB1E74EB4E /* Alamofire.swift in Sources */,
+				C27C72B2D755F3A7B2D97089CA75146F /* Alamofire-dummy.m in Sources */,
+				F93AEAF3659818E2308E0E5C70B66423 /* DispatchQueue+Alamofire.swift in Sources */,
+				6DF154F51210D4C446AA021F2DBA34A4 /* MultipartFormData.swift in Sources */,
+				5CECD168465CF59B489253695D3FB51F /* NetworkReachabilityManager.swift in Sources */,
+				537D7452E6C8C82D9C1908EA29706E35 /* Notifications.swift in Sources */,
+				F5C92DC8E274C4FC541267A97575BC05 /* ParameterEncoding.swift in Sources */,
+				D593E5BEB4221FF272DBF69E51945319 /* Request.swift in Sources */,
+				9BCBBFE03318F5DD172F9E1F3100F67B /* Response.swift in Sources */,
+				43C3C17BFDFD71F45C5A7AFB0C0BEF45 /* ResponseSerialization.swift in Sources */,
+				D46CB5AF7BE345C5D27ABF9DCF692881 /* Result.swift in Sources */,
+				3DE8AA12C52787A0BA570717BB27AAB0 /* ServerTrustPolicy.swift in Sources */,
+				85379CCF081FC9C36F082E71D2DF4D2F /* SessionDelegate.swift in Sources */,
+				8023EECE8437F0311A065A9C2F420E2E /* SessionManager.swift in Sources */,
+				119B37D7E7D3A59C6685FC0EFEE881CE /* TaskDelegate.swift in Sources */,
+				2119BBBDD76C9B182007C9E8D3BD8DDA /* Timeline.swift in Sources */,
+				4C301CCA81AAFB4453B6B827F846E0AC /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C576B265A93E25312929172E0AB5B460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE29563450C7ED7B9BEFD4F8C3788CA /* Toast.swift in Sources */,
+				6DFA70326D4C540DC43BD455F5A4A658 /* Toast-Swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5744350ABDC912C024C4F031D98A81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F02AE29D16467503C9BF488164BF96 /* ActiveAuthenticationInfo.swift in Sources */,
+				16B4BEF572B61E92BCD160E706319DB0 /* AES_3DES_DESEncryption.swift in Sources */,
+				42D69D53E069CEDAF77B6FA33B1C3DD0 /* BACHandler.swift in Sources */,
+				99B27F58987179EE73A097391D107779 /* CardAccess.swift in Sources */,
+				9676282A346753007AC80D1180021D2B /* ChipAuthenticationHandler.swift in Sources */,
+				1F56706DBEB6D55844B15A6A2363739F /* ChipAuthenticationInfo.swift in Sources */,
+				144909D440188FB8EC20006F797B2B37 /* ChipAuthenticationPublicKeyInfo.swift in Sources */,
+				47318875B8D2E65DC4A6E5B33FC15329 /* COM.swift in Sources */,
+				1164571E50366E08C64452BD5C0E8ED7 /* DataGroup.swift in Sources */,
+				4BBF4146768CAD1005D3935EB8F4C65F /* DataGroup1.swift in Sources */,
+				1616506DEE66FFC67A7CC06176299597 /* DataGroup11.swift in Sources */,
+				7A754020EC2D8C7EB9A33813FC0B6261 /* DataGroup12.swift in Sources */,
+				3644DBBB9E86DD4CDF92F37691701169 /* DataGroup14.swift in Sources */,
+				1229676A99367A5C6ED5DA6045A348BC /* DataGroup15.swift in Sources */,
+				E7A98AF3CBBFD05009AA46E42AD94477 /* DataGroup2.swift in Sources */,
+				5517F0499A28D8C87A33DF167C2F75A7 /* DataGroup7.swift in Sources */,
+				8C599405D7CDF9EA36B70E00416A1927 /* DataGroupHash.swift in Sources */,
+				84DC94121F5109DA6D0C4700F505009F /* DataGroupId.swift in Sources */,
+				1D7910DDE9EE24367A47A96300EAB6C0 /* DataGroupParser.swift in Sources */,
+				73AC846207420E086CDB86EFED5B4239 /* Errors.swift in Sources */,
+				17FCFD13F67372676675CEC3C61CE766 /* Logging.swift in Sources */,
+				5F5A71E3F8ECF7DCCF26D184E2A5BAF8 /* NFCPassportModel.swift in Sources */,
+				A28D7392D6419A3C4516FE247B42A0CE /* NFCPassportReader-dummy.m in Sources */,
+				E1F1C77A35D30254180155A2965B237A /* NFCViewDisplayMessage.swift in Sources */,
+				13F6D4B26650D5C4F98FC13ED271A4C8 /* NotImplementedDG.swift in Sources */,
+				82158DC64C5F36E6126E209DDF3099E3 /* OpenSSLUtils.swift in Sources */,
+				C400A9286BBC5E24117E2566DCB22596 /* PACEHandler.swift in Sources */,
+				4B345F1DACCB13151F570BB65672B05D /* PACEInfo.swift in Sources */,
+				26B992B7D4531E5CFD7C34902D95864C /* PassportReader.swift in Sources */,
+				6374B73DCC051E50B8F78D309584FCA0 /* ResponseAPDU.swift in Sources */,
+				FBDCFCD6310EA6BC4728DD97710A45F9 /* SecureMessaging.swift in Sources */,
+				EBFEB75A66A63739F2B6A2B38C22B64F /* SecureMessagingSessionKeyGenerator.swift in Sources */,
+				8894EA48A73CA55E6EE07358DABA7CA5 /* SecurityInfo.swift in Sources */,
+				E29FC20F0E7C8BBBE135D676A0433E67 /* SimpleASN1DumpParser.swift in Sources */,
+				AFB654D71043F7B25E9F0B0A8B69D71F /* SOD.swift in Sources */,
+				9792D3520C9F00D1669EACEBB198D9ED /* TagReader.swift in Sources */,
+				3CEBFFE3C08F451DDF588D08EAE0714A /* Utils.swift in Sources */,
+				DFEBD05F23298D667FEF307ACFEEAF24 /* X509Wrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		636FD583871E2E5ABA50BAA5710F84C6 /* PBXTargetDependency */ = {
+		0B3CF30395B2213383B933DC82709D7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = mydknew;
-			target = 97A4A466DE383E2E81A30AC9A6A29250 /* mydknew */;
-			targetProxy = D23F70D2CF48E9387F23B8B0864769C3 /* PBXContainerItemProxy */;
+			name = QKMRZScanner;
+			target = 6A27FBFB272D0D46BF9B937D5AEEA741 /* QKMRZScanner */;
+			targetProxy = 219B4BB7BA1DD92094E88D3C18BD1CC5 /* PBXContainerItemProxy */;
 		};
-		B18842845D3AC3F25FD3AE527975E1AC /* PBXTargetDependency */ = {
+		1223203BB8C15631BBBEF658901667A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QKMRZParser;
+			target = 44846E5E2172F853B4F70588F8115052 /* QKMRZParser */;
+			targetProxy = 9399632B3D33EE6890F6F1C5BBB8F276 /* PBXContainerItemProxy */;
+		};
+		1281476A7F35C41F9E9AC3B91D5A2559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = DC22547225B73830626DC52019B8FA60 /* PBXContainerItemProxy */;
+		};
+		1C043158BBE3D52F483F4918BCBE1D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QKMRZParser;
+			target = 44846E5E2172F853B4F70588F8115052 /* QKMRZParser */;
+			targetProxy = EA2124845E1F283981B3920DCB0C1A58 /* PBXContainerItemProxy */;
+		};
+		255AE71D31D824C6B02F1D815CE16FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyTesseract;
+			target = 5FDA8701204211983085669C4E12E6FE /* SwiftyTesseract */;
+			targetProxy = 4BD4586CA4079ABB864E2D34DCBBC65F /* PBXContainerItemProxy */;
+		};
+		3E4ED2A70B3B19316D29D82254B3AA06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 6E9780EBF124BFF930DE15519395CE83 /* PBXContainerItemProxy */;
+		};
+		4C0C5E4574E0BE2D568CCDB3DEFBA853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QKMRZScanner;
+			target = 6A27FBFB272D0D46BF9B937D5AEEA741 /* QKMRZScanner */;
+			targetProxy = 68554C4D8F7AC98B1C44796F029F9E89 /* PBXContainerItemProxy */;
+		};
+		5789307E0BEAB780BB50F50AA9A29C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QKMRZParser;
+			target = 44846E5E2172F853B4F70588F8115052 /* QKMRZParser */;
+			targetProxy = 626BBB6406399BA838C8267876D95990 /* PBXContainerItemProxy */;
+		};
+		6F6446D2F78FAAB2FD5EAF40CD0C788C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NFCPassportReader;
+			target = A7BF2183371AE1848A42AD5EEF38B8DB /* NFCPassportReader */;
+			targetProxy = 66BE2348D15C2D01180609A08201BB6D /* PBXContainerItemProxy */;
+		};
+		7E1455E2E43ADA45C4B531A15EB3630F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NFCPassportReader;
+			target = A7BF2183371AE1848A42AD5EEF38B8DB /* NFCPassportReader */;
+			targetProxy = 726FC2FC89A90385E3E87AA6D94B412F /* PBXContainerItemProxy */;
+		};
+		7F65A439B6D713F687C3F6B2F9264CF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-mydknew_Example";
 			target = 7AD7E24D31F8126B020FB138568870D1 /* Pods-mydknew_Example */;
-			targetProxy = A8005D6D64493A3C77A1995102EFF398 /* PBXContainerItemProxy */;
+			targetProxy = 4C42A2D14A7AF3F0FBA7F1F0DA6120BC /* PBXContainerItemProxy */;
+		};
+		8925674821E8583308A6730F929ABE9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = 14A14D38A6C32BCE1029F90B33835144 /* PBXContainerItemProxy */;
+		};
+		899BA92E859184272905AEE75D2EC184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyTesseract;
+			target = 5FDA8701204211983085669C4E12E6FE /* SwiftyTesseract */;
+			targetProxy = 07C1B35AA38FA0DB02367E0547329610 /* PBXContainerItemProxy */;
+		};
+		951EB571C89D033FEE3481D4B2B297E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = 1206DC21189AB09ACBACF246C771A246 /* PBXContainerItemProxy */;
+		};
+		A4404123BA6FACE5DA5AA290C96433EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */;
+			targetProxy = A9CA780C89641865619126524C7515B1 /* PBXContainerItemProxy */;
+		};
+		A5D7AAFB17704A5EF503E9C2A7833FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */;
+			targetProxy = ECDF7F2AEDE923F4DB81DA95338F3CD6 /* PBXContainerItemProxy */;
+		};
+		BDD18E9B526C69AE00DF118A60715C40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mydknew;
+			target = 97A4A466DE383E2E81A30AC9A6A29250 /* mydknew */;
+			targetProxy = 0A5AB0F5CD3F4DB97CA1D9425AD33E48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		7819714B532C5E96E978B3BCE310A91D /* Release */ = {
+		15A9338BE712D918312B9F9E412D19D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5F8D1B3F04F53AF8466BCC1ACFDFFA /* QKMRZParser.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QKMRZParser/QKMRZParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QKMRZParser/QKMRZParser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QKMRZParser/QKMRZParser.modulemap";
+				PRODUCT_MODULE_NAME = QKMRZParser;
+				PRODUCT_NAME = QKMRZParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		16D99730D48BDC4E9393BB12695BDFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D7A0F1A4A6FCA9F0D7EDA189073C12 /* NFCPassportReader.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NFCPassportReader/NFCPassportReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFCPassportReader/NFCPassportReader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NFCPassportReader/NFCPassportReader.modulemap";
+				PRODUCT_MODULE_NAME = NFCPassportReader;
+				PRODUCT_NAME = NFCPassportReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C0FC1387B4F146823D44656B8AF508C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A378826133A917364C874445DB51F6F5 /* NFCPassportReader.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NFCPassportReader/NFCPassportReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFCPassportReader/NFCPassportReader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NFCPassportReader/NFCPassportReader.modulemap";
+				PRODUCT_MODULE_NAME = NFCPassportReader;
+				PRODUCT_NAME = NFCPassportReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33CCA161AC6AB4085087A6EF3232689F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F619209D95D95DE3A782A2659F9090 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		428C679FE1E1C7503F1B1090945B5E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2886477DFCBEC813332FB592D4C20810 /* mydknew.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/mydknew/mydknew-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/mydknew/mydknew-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/mydknew/mydknew.modulemap";
+				PRODUCT_MODULE_NAME = mydknew;
+				PRODUCT_NAME = mydknew;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44EF320A333987530727834DD88A1BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F94CCA18A380028D5A22BB8EDB38ECC /* mydknew.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/mydknew/mydknew-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/mydknew/mydknew-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/mydknew/mydknew.modulemap";
+				PRODUCT_MODULE_NAME = mydknew;
+				PRODUCT_NAME = mydknew;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C3EEA88D4C9D7E530362E4982FD591C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A095917EE9B4572144A8FDE2B97C3A /* Pods-mydknew_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mydknew_Tests/Pods-mydknew_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mydknew_Tests/Pods-mydknew_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60615D7E8B32CD5D71E78573445DD285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0003A3CAB84F871BE77148CFCFC9A047 /* Toast-Swift.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Toast-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A7FBC4B5CC2465256FD78331694DC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 389F978804B15260BF2F0054FCF367FA /* Toast-Swift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Toast-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E3600FA23950C73CB9FAF4FF913722B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F349105766EADB719A4EC7F3571FD28 /* QKMRZScanner.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QKMRZScanner/QKMRZScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QKMRZScanner/QKMRZScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QKMRZScanner/QKMRZScanner.modulemap";
+				PRODUCT_MODULE_NAME = QKMRZScanner;
+				PRODUCT_NAME = QKMRZScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7340D99B95269969F79913124209D3E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88EF90B42F1F9D18D812C80EAF56353D /* Pods-mydknew_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -422,7 +1952,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-mydknew_Example/Pods-mydknew_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-mydknew_Example/Pods-mydknew_Example.modulemap";
@@ -440,74 +1970,11 @@
 			};
 			name = Release;
 		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+		8493650D006BFD212D1C4823C8177412 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6557DFB337D6E5BC575B3832A06FAA63 /* Alamofire.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		A58004DB9B90A4B50F3C1247C1A71871 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79B3B82D5442440013F99A72B3DF6FB9 /* Pods-mydknew_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -516,19 +1983,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-mydknew_Tests/Pods-mydknew_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-mydknew_Tests/Pods-mydknew_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -536,71 +2002,7 @@
 			};
 			name = Release;
 		};
-		AF534E2394A87C451CA5F108D701F0D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22A095917EE9B4572144A8FDE2B97C3A /* Pods-mydknew_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-mydknew_Tests/Pods-mydknew_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-mydknew_Tests/Pods-mydknew_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B3523B8A9656E272FA0A03FB762FF7D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F94CCA18A380028D5A22BB8EDB38ECC /* mydknew.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/mydknew/mydknew-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/mydknew/mydknew-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/mydknew/mydknew.modulemap";
-				PRODUCT_MODULE_NAME = mydknew;
-				PRODUCT_NAME = mydknew;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -653,7 +2055,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -666,11 +2068,11 @@
 			};
 			name = Debug;
 		};
-		D44064AF76B3036BB54B550A7F79E065 /* Release */ = {
+		947D8203855A1CAE1F0BA52255D80D91 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2886477DFCBEC813332FB592D4C20810 /* mydknew.release.xcconfig */;
+			baseConfigurationReference = 2207CCF1A5119E92FF3860E2004D21D3 /* QKMRZParser.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -679,30 +2081,107 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/mydknew/mydknew-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/mydknew/mydknew-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/QKMRZParser/QKMRZParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QKMRZParser/QKMRZParser-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/mydknew/mydknew.modulemap";
-				PRODUCT_MODULE_NAME = mydknew;
-				PRODUCT_NAME = mydknew;
+				MODULEMAP_FILE = "Target Support Files/QKMRZParser/QKMRZParser.modulemap";
+				PRODUCT_MODULE_NAME = QKMRZParser;
+				PRODUCT_NAME = QKMRZParser;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
 			name = Release;
 		};
-		FCA2834A6F816D0ADFCC57E1746B0940 /* Debug */ = {
+		9EC7985E10AEBD63C76CD2225ECE3A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BAE3150EE34E0B14816E4CE72DDAE9 /* OpenSSL-Universal.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A51155AD0ACD560A51F0A2AB7A6AEFA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BABDF22B3B162959B162E3E06CB10ED4 /* Pods-mydknew_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -714,7 +2193,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-mydknew_Example/Pods-mydknew_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-mydknew_Example/Pods-mydknew_Example.modulemap";
@@ -731,32 +2210,241 @@
 			};
 			name = Debug;
 		};
+		A7A637DA97B87AA014A3B5149EF738B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E531370B1F407B22B6F9DF0EC9270606 /* OpenSSL-Universal.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B27399DF14A0578F2FC978F86CBBB39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B3B82D5442440013F99A72B3DF6FB9 /* Pods-mydknew_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mydknew_Tests/Pods-mydknew_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mydknew_Tests/Pods-mydknew_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5560F8CFFA9A52870E36B354BC85784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF038F60951B56BB5C85E204A33E9159 /* QKMRZScanner.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QKMRZScanner/QKMRZScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QKMRZScanner/QKMRZScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QKMRZScanner/QKMRZScanner.modulemap";
+				PRODUCT_MODULE_NAME = QKMRZScanner;
+				PRODUCT_NAME = QKMRZScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA08776F408F9ADED2ADE8FA6F63291B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4280F672C2896A3511B0283F8CC8885D /* SwiftyTesseract.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTesseract/SwiftyTesseract-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyTesseract;
+				PRODUCT_NAME = SwiftyTesseract;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB29E95AEBD51FBBA5EB51562FA209E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F34019D0963A0307C3D7DA6289B0A67F /* SwiftyTesseract.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTesseract/SwiftyTesseract-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyTesseract;
+				PRODUCT_NAME = SwiftyTesseract;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0F0565F341300B90AE09D23E53E2C646 /* Build configuration list for PBXNativeTarget "QKMRZParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947D8203855A1CAE1F0BA52255D80D91 /* Debug */,
+				15A9338BE712D918312B9F9E412D19D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD6A8C8ED8CA9347E6E09F5EAAC356A /* Build configuration list for PBXNativeTarget "QKMRZScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5560F8CFFA9A52870E36B354BC85784 /* Debug */,
+				6E3600FA23950C73CB9FAF4FF913722B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3393B836BCDFD5292B077E63A26DC97F /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7FBC4B5CC2465256FD78331694DC1F /* Debug */,
+				60615D7E8B32CD5D71E78573445DD285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36F0265797224E2E4E226EDE36358594 /* Build configuration list for PBXNativeTarget "Pods-mydknew_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51155AD0ACD560A51F0A2AB7A6AEFA3 /* Debug */,
+				7340D99B95269969F79913124209D3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A58454170059FAD62894AC761FD58AC /* Build configuration list for PBXNativeTarget "Pods-mydknew_Example" */ = {
+		5043C9A88D8D1DE99FF9473EE7A857FD /* Build configuration list for PBXNativeTarget "NFCPassportReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCA2834A6F816D0ADFCC57E1746B0940 /* Debug */,
-				7819714B532C5E96E978B3BCE310A91D /* Release */,
+				16D99730D48BDC4E9393BB12695BDFDE /* Debug */,
+				1C0FC1387B4F146823D44656B8AF508C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B60E1FAB7A159EA5DA1B14DBB9DD97CA /* Build configuration list for PBXNativeTarget "mydknew" */ = {
+		6A69BDD9DFE3FA3D8001E0507C3EB0E5 /* Build configuration list for PBXNativeTarget "SwiftyTesseract" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3523B8A9656E272FA0A03FB762FF7D6 /* Debug */,
-				D44064AF76B3036BB54B550A7F79E065 /* Release */,
+				DB29E95AEBD51FBBA5EB51562FA209E4 /* Debug */,
+				BA08776F408F9ADED2ADE8FA6F63291B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887CAE7F79D14F7AF2714DC8BABA9E38 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CCA161AC6AB4085087A6EF3232689F /* Debug */,
+				8493650D006BFD212D1C4823C8177412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B620DF2D8AD35059BC377D722DA0FFE /* Build configuration list for PBXNativeTarget "mydknew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EF320A333987530727834DD88A1BAE /* Debug */,
+				428C679FE1E1C7503F1B1090945B5E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC8931AD2EF1861DCA025EFE894F1B5 /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A637DA97B87AA014A3B5149EF738B0 /* Debug */,
+				9EC7985E10AEBD63C76CD2225ECE3A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -764,8 +2452,8 @@
 		D57898AF114CB3B97B238A6C419BB2E6 /* Build configuration list for PBXNativeTarget "Pods-mydknew_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF534E2394A87C451CA5F108D701F0D4 /* Debug */,
-				A58004DB9B90A4B50F3C1247C1A71871 /* Release */,
+				5C3EEA88D4C9D7E530362E4982FD591C /* Debug */,
+				B27399DF14A0578F2FC978F86CBBB39B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

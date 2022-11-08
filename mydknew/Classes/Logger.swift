@@ -13,4 +13,8 @@ public class logger{
     public func gettest(){
         print("Tested")
     }
+    
+    public func getReady(){
+        print("Ready")
+    }
 }
