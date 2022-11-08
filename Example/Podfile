@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'mydknew_Example' do
+  pod 'mydknew', :path => '../'
+
+  target 'mydknew_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
