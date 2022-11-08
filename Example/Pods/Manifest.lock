@@ -1,0 +1,16 @@
+PODS:
+  - mydknew (0.1.0)
+
+DEPENDENCIES:
+  - mydknew (from `../`)
+
+EXTERNAL SOURCES:
+  mydknew:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  mydknew: 637beae9b7a3c8cc9fcb20d66fc079a1b4da795a
+
+PODFILE CHECKSUM: cbd6d8de8584eb9dca0f6a67918893fb793d5bcf
+
+COCOAPODS: 1.11.3

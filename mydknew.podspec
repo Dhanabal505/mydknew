@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'mydknew'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of mydknew.'
+  s.summary          = 'Lib test'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,11 +24,15 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Dhanabal505/mydknew'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Dhanabal505' => 'vignesh@nissisoftwaresystems.com' }
+  s.author           = { 'Dhanabal505' => 'psdhanabal505@gmail.com' }
   s.source           = { :git => 'https://github.com/Dhanabal505/mydknew.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
+  s.swift_version = '5.0'
+      s.platforms = {
+          "ios": "12.0"
+      }
 
   s.source_files = 'mydknew/Classes/**/*'
   
