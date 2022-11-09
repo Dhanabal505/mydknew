@@ -18,7 +18,7 @@ public class logger{
         print("Ready")
     }
     
-    public func changedZip(){
-        print("Changed git")
+    public func changedPrivate(){
+        print("Changed Private")
     }
 }

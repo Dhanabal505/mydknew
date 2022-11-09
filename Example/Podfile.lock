@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
-  - mydknew (0.1.4):
+  - mydknew (0.1.5):
     - Alamofire (~> 4.9)
     - NFCPassportReader
     - QKMRZParser
@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  mydknew: 0c060ed40a7b734208db591490669c555167f348
+  mydknew: 8af207bf320f201c3822f7776f76975bef095c15
   NFCPassportReader: 3a4b15d28c89a1f747c957f2bce1230c268dba25
   OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
   QKMRZParser: 6b419b6f07d6bff6b50429b97de10846dc902c29
