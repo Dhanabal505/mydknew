@@ -1,6 +1,6 @@
 {
   "name": "mydknew",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "Lib test",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Dhanabal505/mydknew",
@@ -12,8 +12,8 @@
     "Dhanabal505": "psdhanabal505@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Dhanabal505/mydknew.zip",
-    "tag": "0.1.2"
+    "git": "https://github.com/Dhanabal505/mydknew.gip",
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "13.0"
