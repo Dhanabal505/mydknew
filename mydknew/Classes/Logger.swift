@@ -17,4 +17,8 @@ public class logger{
     public func getReady(){
         print("Ready")
     }
+    
+    public func changedZip(){
+        print("Changed Zip")
+    }
 }
