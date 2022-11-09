@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'mydknew'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Lib test'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dhanabal505' => 'psdhanabal505@gmail.com' }
-  s.source           = { :git => 'https://github.com/Dhanabal505/mydknew.gip', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Dhanabal505/mydknew.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
